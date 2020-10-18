@@ -13,26 +13,21 @@ class BitcoinApi {
     
     static let baseUrl = "https://api.blockchain.com/v3/"
     
-    static func stats() {
-        //return Alamofire.
-    }
-
-    func Client() -> DataRequest {
-        AF.request("http://careers.picpay.com/tests/mobdev/users",method: .get).responseJSON { (response) in
-            if let data = response.data {
-                do{
-                    let json = try JSONDecoder().decode([Usuario].self, from: data)
-                    for usuario in json{
-                        self.usuarios.append(usuario)
-                    }
-                    self.view.reloadData()
-                    self.view.stopLoading()
-                    
-                }catch{
-                    print(error)
+    static func stats() -> MarketPriceResponse? {
+        var result: MarketPriceResponse? = nil
+        AF.request(baseUrl + "stats", method: .get).responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                if let json = value as? MarketPriceResponse {
+                    result = json
                 }
+            case .failure(let error):
+                print("Alamofire Debug Error: " + (error.errorDescription ?? "error"))
+                break
             }
         }
+        return result
     }
+
     
 }

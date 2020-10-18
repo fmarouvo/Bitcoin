@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct MarketPriceResponse {
+struct MarketPriceResponse: Codable {
     let marketPrice: Double
+    
+    enum CodingKeys: String, CodingKey {
+        case marketPrice = "market_price_usd"
+    }
 }
