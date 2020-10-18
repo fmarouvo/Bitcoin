@@ -28,6 +28,22 @@ class BitcoinApi {
         }
         return result
     }
+    
+    static func marketPrice() -> MarketPriceVariationResponse? {
+        var result: MarketPriceVariationResponse? = nil
+        AF.request(baseUrl + "stats", method: .get).responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                if let json = value as? MarketPriceVariationResponse {
+                    result = json
+                }
+            case .failure(let error):
+                print("Alamofire Debug Error: " + (error.errorDescription ?? "error"))
+                break
+            }
+        }
+        return result
+    }
 
     
 }

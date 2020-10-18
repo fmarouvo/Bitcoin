@@ -14,6 +14,13 @@
 		8BD311E9253CF47800670AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD311E8253CF47800670AC5 /* Preview Assets.xcassets */; };
 		8BD311F5253CF54B00670AC5 /* BitcoinApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD311F4253CF54B00670AC5 /* BitcoinApi.swift */; };
 		8BD311FF253CFC2E00670AC5 /* MarketPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD311FE253CFC2E00670AC5 /* MarketPriceResponse.swift */; };
+		8BD3120B253D056500670AC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31209253D056500670AC5 /* HomeViewController.swift */; };
+		8BD3120C253D056500670AC5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD3120A253D056500670AC5 /* HomeViewController.xib */; };
+		8BD31210253D057300670AC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3120F253D057300670AC5 /* HomeViewModel.swift */; };
+		8BD31213253D057F00670AC5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31212253D057F00670AC5 /* HomeInteractor.swift */; };
+		8BD3121B253D072900670AC5 /* MarketPriceVariationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3121A253D072900670AC5 /* MarketPriceVariationResponse.swift */; };
+		8BD3121E253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3121D253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift */; };
+		8BD31222253D095A00670AC5 /* FetchMarketPriceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		8BD311EA253CF47800670AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD311F4253CF54B00670AC5 /* BitcoinApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinApi.swift; sourceTree = "<group>"; };
 		8BD311FE253CFC2E00670AC5 /* MarketPriceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceResponse.swift; sourceTree = "<group>"; };
+		8BD31209253D056500670AC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BD3120A253D056500670AC5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8BD3120F253D057300670AC5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8BD31212253D057F00670AC5 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		8BD3121A253D072900670AC5 /* MarketPriceVariationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceVariationResponse.swift; sourceTree = "<group>"; };
+		8BD3121D253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceVariationUseCase.swift; sourceTree = "<group>"; };
+		8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceUseCase.swift; sourceTree = "<group>"; };
 		8BE0E0E8ACE3F7F2317421A9 /* Pods_Bitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5A7596BCA83026096A218D /* Pods-Bitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.debug.xcconfig"; sourceTree = "<group>"; };
 		CB68ED31E2E7E078F11272C7 /* Pods-Bitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin.release.xcconfig"; path = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +86,7 @@
 		8BD311E0253CF47700670AC5 /* Bitcoin */ = {
 			isa = PBXGroup;
 			children = (
+				8BD31207253D052F00670AC5 /* Scenes */,
 				8BD311FC253CFC1100670AC5 /* Domain */,
 				8BD311F3253CF52400670AC5 /* Network */,
 				8BD311E1253CF47700670AC5 /* BitcoinApp.swift */,
@@ -102,6 +117,7 @@
 		8BD311FC253CFC1100670AC5 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				8BD31215253D058400670AC5 /* UseCases */,
 				8BD311FD253CFC1800670AC5 /* Models */,
 			);
 			path = Domain;
@@ -111,8 +127,37 @@
 			isa = PBXGroup;
 			children = (
 				8BD311FE253CFC2E00670AC5 /* MarketPriceResponse.swift */,
+				8BD3121A253D072900670AC5 /* MarketPriceVariationResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8BD31207253D052F00670AC5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8BD31208253D053500670AC5 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8BD31208253D053500670AC5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BD31209253D056500670AC5 /* HomeViewController.swift */,
+				8BD3120A253D056500670AC5 /* HomeViewController.xib */,
+				8BD3120F253D057300670AC5 /* HomeViewModel.swift */,
+				8BD31212253D057F00670AC5 /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8BD31215253D058400670AC5 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3121D253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift */,
+				8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		8C6F20DBBC4AF1B7E36FC982 /* Frameworks */ = {
@@ -184,6 +229,7 @@
 			files = (
 				8BD311E9253CF47800670AC5 /* Preview Assets.xcassets in Resources */,
 				8BD311E6253CF47800670AC5 /* Assets.xcassets in Resources */,
+				8BD3120C253D056500670AC5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD3121B253D072900670AC5 /* MarketPriceVariationResponse.swift in Sources */,
+				8BD3120B253D056500670AC5 /* HomeViewController.swift in Sources */,
+				8BD31222253D095A00670AC5 /* FetchMarketPriceUseCase.swift in Sources */,
+				8BD31210253D057300670AC5 /* HomeViewModel.swift in Sources */,
 				8BD311F5253CF54B00670AC5 /* BitcoinApi.swift in Sources */,
 				8BD311E4253CF47700670AC5 /* ContentView.swift in Sources */,
 				8BD311FF253CFC2E00670AC5 /* MarketPriceResponse.swift in Sources */,
 				8BD311E2253CF47700670AC5 /* BitcoinApp.swift in Sources */,
+				8BD3121E253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */,
+				8BD31213253D057F00670AC5 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

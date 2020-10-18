@@ -7,5 +7,6 @@ target 'Bitcoin' do
 
   # Pods for Bitcoin
   pod 'Alamofire'
+  pod 'RxSwift'
 
 end
