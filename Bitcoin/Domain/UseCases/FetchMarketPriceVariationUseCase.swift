@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 protocol FetchMarketPriceVariationUseCase {
-    func fetchMarketPriceUseCase() -> Single<MarketPriceVariationResponse>
+    func fetchMarketPriceVariationUseCase() -> Single<MarketPriceVariationResponse>
 }
 
 final class FetchMarketPriceVariationUseCaseImpl {
