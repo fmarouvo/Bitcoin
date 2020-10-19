@@ -14,35 +14,35 @@ class BitcoinApi {
     static let baseUrl = "https://api.blockchain.info/"
     
     static func stats() -> MarketPriceResponse? {
-        var result: MarketPriceResponse? = nil
         AF.request(baseUrl + "stats", method: .get).responseJSON { response in
             switch response.result {
             case .success(let value):
                 if let json = value as? MarketPriceResponse {
-                    result = json
+                    LocalRepository.saveMarketPrice(data: json)
                 }
             case .failure(let error):
                 print("Alamofire Debug Error: " + (error.errorDescription ?? "error"))
                 break
             }
+        }.data.map { data in
+            print(data)
         }
-        return result
+        return nil
     }
     
     static func marketPrice() -> MarketPriceVariationResponse? {
-        var result: MarketPriceVariationResponse? = nil
         AF.request(baseUrl + "charts/market-price?timespan=1months", method: .get).responseJSON { response in
             switch response.result {
             case .success(let value):
                 if let json = value as? MarketPriceVariationResponse {
-                    result = json
+                    LocalRepository.saveMarketPriceVariation(data: json)
                 }
             case .failure(let error):
                 print("Alamofire Debug Error: " + (error.errorDescription ?? "error"))
                 break
             }
         }
-        return result
+        return nil
     }
 
     
