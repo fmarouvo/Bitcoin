@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7340D34DB9B50768C06D8309 /* Pods_Bitcoin_Blockchain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A20215EAFDAC6ABF1C4415 /* Pods_Bitcoin_Blockchain.framework */; };
+		8BA33FDE253E55EF001CB209 /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FDD253E55EF001CB209 /* LocalRepository.swift */; };
+		8BA33FE1253E5615001CB209 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FE0253E5615001CB209 /* ApiClient.swift */; };
 		8BD31260253D2D8100670AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3125F253D2D8100670AC5 /* AppDelegate.swift */; };
 		8BD31262253D2D8100670AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31261253D2D8100670AC5 /* SceneDelegate.swift */; };
 		8BD31264253D2D8100670AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31263253D2D8100670AC5 /* ViewController.swift */; };
@@ -24,13 +25,15 @@
 		8BD3128E253D2DE000670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31286253D2DE000670AC5 /* FetchMarketPriceVariationUseCase.swift */; };
 		8BD3128F253D2DE000670AC5 /* FetchMarketPriceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31287253D2DE000670AC5 /* FetchMarketPriceUseCase.swift */; };
 		8BD31290253D2DE000670AC5 /* Double+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31289253D2DE000670AC5 /* Double+String.swift */; };
-		8BD31291253D2DE000670AC5 /* BitcoinApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3128B253D2DE000670AC5 /* BitcoinApi.swift */; };
-		8BD3129E253D356600670AC5 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3129D253D356600670AC5 /* Repository.swift */; };
+		8BD31291253D2DE000670AC5 /* BitcoinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3128B253D2DE000670AC5 /* BitcoinRouter.swift */; };
+		C9D2314F119F4F7FB0CE3D31 /* Pods_Bitcoin_Blockchain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E76E6FA885E0AB5C2320DC /* Pods_Bitcoin_Blockchain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53056745B9690A1EE49BB939 /* Pods-Bitcoin-Blockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.debug.xcconfig"; sourceTree = "<group>"; };
-		690E5BB9BD9199C5076A4DF5 /* Pods-Bitcoin-Blockchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.release.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.release.xcconfig"; sourceTree = "<group>"; };
+		36E76E6FA885E0AB5C2320DC /* Pods_Bitcoin_Blockchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin_Blockchain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD0DB3BE4EC1B6C2AACCD3D /* Pods-Bitcoin-Blockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA33FDD253E55EF001CB209 /* LocalRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalRepository.swift; sourceTree = "<group>"; };
+		8BA33FE0253E5615001CB209 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		8BD3125C253D2D8100670AC5 /* Bitcoin-Blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin-Blockchain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD3125F253D2D8100670AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD31261253D2D8100670AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,9 +52,8 @@
 		8BD31286253D2DE000670AC5 /* FetchMarketPriceVariationUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceVariationUseCase.swift; sourceTree = "<group>"; };
 		8BD31287253D2DE000670AC5 /* FetchMarketPriceUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceUseCase.swift; sourceTree = "<group>"; };
 		8BD31289253D2DE000670AC5 /* Double+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+String.swift"; sourceTree = "<group>"; };
-		8BD3128B253D2DE000670AC5 /* BitcoinApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinApi.swift; sourceTree = "<group>"; };
-		8BD3129D253D356600670AC5 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		F6A20215EAFDAC6ABF1C4415 /* Pods_Bitcoin_Blockchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin_Blockchain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD3128B253D2DE000670AC5 /* BitcoinRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinRouter.swift; sourceTree = "<group>"; };
+		DFFDB8EABA14040F943F5E16 /* Pods-Bitcoin-Blockchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.release.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7340D34DB9B50768C06D8309 /* Pods_Bitcoin_Blockchain.framework in Frameworks */,
+				C9D2314F119F4F7FB0CE3D31 /* Pods_Bitcoin_Blockchain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,18 +71,10 @@
 		5BEEDCF565CB18FAC50A7743 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53056745B9690A1EE49BB939 /* Pods-Bitcoin-Blockchain.debug.xcconfig */,
-				690E5BB9BD9199C5076A4DF5 /* Pods-Bitcoin-Blockchain.release.xcconfig */,
+				7AD0DB3BE4EC1B6C2AACCD3D /* Pods-Bitcoin-Blockchain.debug.xcconfig */,
+				DFFDB8EABA14040F943F5E16 /* Pods-Bitcoin-Blockchain.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		71C21C9E4C0D2883C6E3D2E8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F6A20215EAFDAC6ABF1C4415 /* Pods_Bitcoin_Blockchain.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8BD31253253D2D8100670AC5 = {
@@ -89,7 +83,7 @@
 				8BD3125E253D2D8100670AC5 /* Bitcoin-Blockchain */,
 				8BD3125D253D2D8100670AC5 /* Products */,
 				5BEEDCF565CB18FAC50A7743 /* Pods */,
-				71C21C9E4C0D2883C6E3D2E8 /* Frameworks */,
+				8D35D38DB6CD2685C491E00F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,8 +171,9 @@
 		8BD3128A253D2DE000670AC5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8BD3128B253D2DE000670AC5 /* BitcoinApi.swift */,
-				8BD3129D253D356600670AC5 /* Repository.swift */,
+				8BD3128B253D2DE000670AC5 /* BitcoinRouter.swift */,
+				8BA33FE0253E5615001CB209 /* ApiClient.swift */,
+				8BA33FDD253E55EF001CB209 /* LocalRepository.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -191,6 +186,14 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		8D35D38DB6CD2685C491E00F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36E76E6FA885E0AB5C2320DC /* Pods_Bitcoin_Blockchain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,11 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD31270253D2D8200670AC5 /* Build configuration list for PBXNativeTarget "Bitcoin-Blockchain" */;
 			buildPhases = (
-				1043A49ACE4D7E3F8190D260 /* [CP] Check Pods Manifest.lock */,
+				F4A08A712C9FEF5D91AE4FC6 /* [CP] Check Pods Manifest.lock */,
 				8BD31258253D2D8100670AC5 /* Sources */,
 				8BD31259253D2D8100670AC5 /* Frameworks */,
 				8BD3125A253D2D8100670AC5 /* Resources */,
-				BDFD136A8F63A23678B3F6B3 /* [CP] Embed Pods Frameworks */,
+				12ABB0813D9B2A8EF5BE9D40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,7 +263,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1043A49ACE4D7E3F8190D260 /* [CP] Check Pods Manifest.lock */ = {
+		12ABB0813D9B2A8EF5BE9D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A08A712C9FEF5D91AE4FC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,23 +302,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BDFD136A8F63A23678B3F6B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,13 +316,14 @@
 				8BD3128E253D2DE000670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */,
 				8BD3127F253D2DD000670AC5 /* HomeBuilder.swift in Sources */,
 				8BD3127C253D2DD000670AC5 /* HomeInteractor.swift in Sources */,
-				8BD3129E253D356600670AC5 /* Repository.swift in Sources */,
 				8BD3127B253D2DD000670AC5 /* HomeViewModel.swift in Sources */,
-				8BD31291253D2DE000670AC5 /* BitcoinApi.swift in Sources */,
+				8BD31291253D2DE000670AC5 /* BitcoinRouter.swift in Sources */,
+				8BA33FDE253E55EF001CB209 /* LocalRepository.swift in Sources */,
 				8BD3128D253D2DE000670AC5 /* MarketPriceResponse.swift in Sources */,
 				8BD3128F253D2DE000670AC5 /* FetchMarketPriceUseCase.swift in Sources */,
 				8BD3127E253D2DD000670AC5 /* HomeViewController.swift in Sources */,
 				8BD31290253D2DE000670AC5 /* Double+String.swift in Sources */,
+				8BA33FE1253E5615001CB209 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +467,7 @@
 		};
 		8BD31271253D2D8200670AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53056745B9690A1EE49BB939 /* Pods-Bitcoin-Blockchain.debug.xcconfig */;
+			baseConfigurationReference = 7AD0DB3BE4EC1B6C2AACCD3D /* Pods-Bitcoin-Blockchain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,7 +486,7 @@
 		};
 		8BD31272253D2D8200670AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 690E5BB9BD9199C5076A4DF5 /* Pods-Bitcoin-Blockchain.release.xcconfig */;
+			baseConfigurationReference = DFFDB8EABA14040F943F5E16 /* Pods-Bitcoin-Blockchain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

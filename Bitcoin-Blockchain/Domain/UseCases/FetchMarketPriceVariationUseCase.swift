@@ -14,12 +14,10 @@ protocol FetchMarketPriceVariationUseCase {
 
 final class FetchMarketPriceVariationUseCaseImpl: FetchMarketPriceVariationUseCase {
     
+    let apiClient = ApiClient()
+    
     func fetchMarketPriceVariationUseCase() -> Single<MarketPriceVariationResponse> {
-        BitcoinApi().marketPrice().map { result in
-            return Single.just(result)
-        }
-         
-        
+        apiClient.requestSingle(BitcoinRouter.fetchMarketPrice, type: MarketPriceVariationResponse.self)
     }
     
 }

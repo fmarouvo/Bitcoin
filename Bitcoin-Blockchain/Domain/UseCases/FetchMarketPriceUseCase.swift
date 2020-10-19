@@ -14,11 +14,9 @@ protocol FetchMarketPriceUseCase {
 
 final class FetchMarketPriceUseCaseImpl: FetchMarketPriceUseCase {
     
-    func fetchMarketPriceUseCase() -> Single<MarketPriceResponse> {
-        if let stats = BitcoinApi.stats() {
-            return Single.just(stats)
-        }
-        return Single.just(MarketPriceResponse(marketPrice: 0))
-    }
+    let apiClient = ApiClient()
     
+    func fetchMarketPriceUseCase() -> Single<MarketPriceResponse> {
+        apiClient.requestSingle(BitcoinRouter.fetchStats, type: MarketPriceResponse.self)
+    }
 }
