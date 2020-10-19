@@ -21,6 +21,7 @@
 		8BD3121B253D072900670AC5 /* MarketPriceVariationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3121A253D072900670AC5 /* MarketPriceVariationResponse.swift */; };
 		8BD3121E253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3121D253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift */; };
 		8BD31222253D095A00670AC5 /* FetchMarketPriceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */; };
+		8BD31233253D234C00670AC5 /* Double+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31232253D234C00670AC5 /* Double+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		8BD3121A253D072900670AC5 /* MarketPriceVariationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceVariationResponse.swift; sourceTree = "<group>"; };
 		8BD3121D253D081100670AC5 /* FetchMarketPriceVariationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceVariationUseCase.swift; sourceTree = "<group>"; };
 		8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMarketPriceUseCase.swift; sourceTree = "<group>"; };
+		8BD31232253D234C00670AC5 /* Double+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+String.swift"; sourceTree = "<group>"; };
 		8BE0E0E8ACE3F7F2317421A9 /* Pods_Bitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5A7596BCA83026096A218D /* Pods-Bitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.debug.xcconfig"; sourceTree = "<group>"; };
 		CB68ED31E2E7E078F11272C7 /* Pods-Bitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin.release.xcconfig"; path = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		8BD311E0253CF47700670AC5 /* Bitcoin */ = {
 			isa = PBXGroup;
 			children = (
+				8BD31231253D233D00670AC5 /* Extensions */,
 				8BD31207253D052F00670AC5 /* Scenes */,
 				8BD311FC253CFC1100670AC5 /* Domain */,
 				8BD311F3253CF52400670AC5 /* Network */,
@@ -158,6 +161,14 @@
 				8BD31221253D095A00670AC5 /* FetchMarketPriceUseCase.swift */,
 			);
 			path = UseCases;
+			sourceTree = "<group>";
+		};
+		8BD31231253D233D00670AC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8BD31232253D234C00670AC5 /* Double+String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8C6F20DBBC4AF1B7E36FC982 /* Frameworks */ = {
@@ -283,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD3121B253D072900670AC5 /* MarketPriceVariationResponse.swift in Sources */,
+				8BD31233253D234C00670AC5 /* Double+String.swift in Sources */,
 				8BD3120B253D056500670AC5 /* HomeViewController.swift in Sources */,
 				8BD31222253D095A00670AC5 /* FetchMarketPriceUseCase.swift in Sources */,
 				8BD31210253D057300670AC5 /* HomeViewModel.swift in Sources */,
@@ -429,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teste.Bitcoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castagnari.Bitcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teste.Bitcoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castagnari.Bitcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

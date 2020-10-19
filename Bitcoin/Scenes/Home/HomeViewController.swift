@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import RxSwift
 
 class HomeViewController: UIViewController {
 
     private let viewModel: HomeViewModelType
+    private let disposeBag = DisposeBag()
     
     init(viewModel: HomeViewModelType) {
         self.viewModel = viewModel
@@ -22,9 +24,22 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        prepareViewModel()
     }
 
-
-
+    func prepareViewModel() {
+        viewModel.output.onMarketPriceFetched
+            .drive(onNext: { [weak self] price in
+                guard let self = self else { return }
+                print(price)
+            }).disposed(by: disposeBag)
+        
+        viewModel.output.onMarketPriceVariationFetched
+            .drive(onNext: { [weak self] variation in
+                guard let self = self else { return }
+                print(variation)
+            }).disposed(by: disposeBag)
+    }
 
 }
