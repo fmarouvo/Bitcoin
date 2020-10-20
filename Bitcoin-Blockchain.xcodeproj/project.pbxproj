@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		8BA33FDE253E55EF001CB209 /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FDD253E55EF001CB209 /* LocalRepository.swift */; };
 		8BA33FE1253E5615001CB209 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FE0253E5615001CB209 /* ApiClient.swift */; };
+		8BA64F93253E8CCF0001E473 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA64F92253E8CCF0001E473 /* DateValueFormatter.swift */; };
+		8BA64FA5253E992F0001E473 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA64FA3253E992F0001E473 /* HomeViewController.swift */; };
+		8BA64FA6253E992F0001E473 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA64FA4253E992F0001E473 /* HomeViewController.xib */; };
 		8BD31260253D2D8100670AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3125F253D2D8100670AC5 /* AppDelegate.swift */; };
-		8BD31262253D2D8100670AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31261253D2D8100670AC5 /* SceneDelegate.swift */; };
 		8BD31264253D2D8100670AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31263253D2D8100670AC5 /* ViewController.swift */; };
 		8BD31267253D2D8100670AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD31265253D2D8100670AC5 /* Main.storyboard */; };
 		8BD31269253D2D8200670AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD31268253D2D8200670AC5 /* Assets.xcassets */; };
 		8BD3126C253D2D8200670AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD3126A253D2D8200670AC5 /* LaunchScreen.storyboard */; };
 		8BD3127B253D2DD000670AC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31276253D2DD000670AC5 /* HomeViewModel.swift */; };
 		8BD3127C253D2DD000670AC5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31277253D2DD000670AC5 /* HomeInteractor.swift */; };
-		8BD3127D253D2DD000670AC5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD31278253D2DD000670AC5 /* HomeViewController.xib */; };
-		8BD3127E253D2DD000670AC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31279253D2DD000670AC5 /* HomeViewController.swift */; };
 		8BD3127F253D2DD000670AC5 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3127A253D2DD000670AC5 /* HomeBuilder.swift */; };
 		8BD3128C253D2DE000670AC5 /* MarketPriceVariationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31283253D2DE000670AC5 /* MarketPriceVariationResponse.swift */; };
 		8BD3128D253D2DE000670AC5 /* MarketPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31284253D2DE000670AC5 /* MarketPriceResponse.swift */; };
@@ -34,9 +34,11 @@
 		7AD0DB3BE4EC1B6C2AACCD3D /* Pods-Bitcoin-Blockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.debug.xcconfig"; sourceTree = "<group>"; };
 		8BA33FDD253E55EF001CB209 /* LocalRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalRepository.swift; sourceTree = "<group>"; };
 		8BA33FE0253E5615001CB209 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		8BA64F92253E8CCF0001E473 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		8BA64FA3253E992F0001E473 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BA64FA4253E992F0001E473 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		8BD3125C253D2D8100670AC5 /* Bitcoin-Blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin-Blockchain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD3125F253D2D8100670AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BD31261253D2D8100670AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8BD31263253D2D8100670AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BD31266253D2D8100670AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BD31268253D2D8200670AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		8BD3126D253D2D8200670AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD31276253D2DD000670AC5 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8BD31277253D2DD000670AC5 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		8BD31278253D2DD000670AC5 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		8BD31279253D2DD000670AC5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8BD3127A253D2DD000670AC5 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
 		8BD31283253D2DE000670AC5 /* MarketPriceVariationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPriceVariationResponse.swift; sourceTree = "<group>"; };
 		8BD31284253D2DE000670AC5 /* MarketPriceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPriceResponse.swift; sourceTree = "<group>"; };
@@ -77,6 +77,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8BA64F90253E8CB60001E473 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8BA64F91253E8CBD0001E473 /* Formatters */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		8BA64F91253E8CBD0001E473 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				8BA64F92253E8CCF0001E473 /* DateValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
 		8BD31253253D2D8100670AC5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +114,12 @@
 		8BD3125E253D2D8100670AC5 /* Bitcoin-Blockchain */ = {
 			isa = PBXGroup;
 			children = (
+				8BA64F90253E8CB60001E473 /* SupportFiles */,
 				8BD3129B253D2F0D00670AC5 /* Application */,
 				8BD31281253D2DE000670AC5 /* Domain */,
 				8BD31288253D2DE000670AC5 /* Extensions */,
 				8BD3128A253D2DE000670AC5 /* Network */,
 				8BD31274253D2DD000670AC5 /* Scenes */,
-				8BD31261253D2D8100670AC5 /* SceneDelegate.swift */,
 				8BD31263253D2D8100670AC5 /* ViewController.swift */,
 				8BD31265253D2D8100670AC5 /* Main.storyboard */,
 				8BD31268253D2D8200670AC5 /* Assets.xcassets */,
@@ -126,8 +142,8 @@
 			children = (
 				8BD31276253D2DD000670AC5 /* HomeViewModel.swift */,
 				8BD31277253D2DD000670AC5 /* HomeInteractor.swift */,
-				8BD31278253D2DD000670AC5 /* HomeViewController.xib */,
-				8BD31279253D2DD000670AC5 /* HomeViewController.swift */,
+				8BA64FA3253E992F0001E473 /* HomeViewController.swift */,
+				8BA64FA4253E992F0001E473 /* HomeViewController.xib */,
 				8BD3127A253D2DD000670AC5 /* HomeBuilder.swift */,
 			);
 			path = Home;
@@ -256,7 +272,7 @@
 				8BD3126C253D2D8200670AC5 /* LaunchScreen.storyboard in Resources */,
 				8BD31269253D2D8200670AC5 /* Assets.xcassets in Resources */,
 				8BD31267253D2D8100670AC5 /* Main.storyboard in Resources */,
-				8BD3127D253D2DD000670AC5 /* HomeViewController.xib in Resources */,
+				8BA64FA6253E992F0001E473 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +327,10 @@
 			files = (
 				8BD3128C253D2DE000670AC5 /* MarketPriceVariationResponse.swift in Sources */,
 				8BD31264253D2D8100670AC5 /* ViewController.swift in Sources */,
+				8BA64F93253E8CCF0001E473 /* DateValueFormatter.swift in Sources */,
 				8BD31260253D2D8100670AC5 /* AppDelegate.swift in Sources */,
-				8BD31262253D2D8100670AC5 /* SceneDelegate.swift in Sources */,
 				8BD3128E253D2DE000670AC5 /* FetchMarketPriceVariationUseCase.swift in Sources */,
+				8BA64FA5253E992F0001E473 /* HomeViewController.swift in Sources */,
 				8BD3127F253D2DD000670AC5 /* HomeBuilder.swift in Sources */,
 				8BD3127C253D2DD000670AC5 /* HomeInteractor.swift in Sources */,
 				8BD3127B253D2DD000670AC5 /* HomeViewModel.swift in Sources */,
@@ -321,7 +338,6 @@
 				8BA33FDE253E55EF001CB209 /* LocalRepository.swift in Sources */,
 				8BD3128D253D2DE000670AC5 /* MarketPriceResponse.swift in Sources */,
 				8BD3128F253D2DE000670AC5 /* FetchMarketPriceUseCase.swift in Sources */,
-				8BD3127E253D2DD000670AC5 /* HomeViewController.swift in Sources */,
 				8BD31290253D2DE000670AC5 /* Double+String.swift in Sources */,
 				8BA33FE1253E5615001CB209 /* ApiClient.swift in Sources */,
 			);
@@ -473,6 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bitcoin-Blockchain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.castagnari.Bitcoin.Bitcoin-Blockchain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,6 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bitcoin-Blockchain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.castagnari.Bitcoin.Bitcoin-Blockchain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

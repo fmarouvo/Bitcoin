@@ -22,7 +22,7 @@ final class HomeBuilder: Builder, HomeBuildable {
         
         let viewModel = HomeViewModel(interactor: interactor)
 
-        let viewController = HomeViewController(viewModel: viewModel)
+        let viewController = HomeViewController(withViewModel: viewModel)
 
         return viewController
     }

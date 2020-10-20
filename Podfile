@@ -12,5 +12,6 @@ target 'Bitcoin-Blockchain' do
   pod 'RxAlamofire'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Charts'
 
 end
