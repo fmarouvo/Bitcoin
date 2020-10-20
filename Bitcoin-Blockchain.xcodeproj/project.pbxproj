@@ -86,10 +86,10 @@
 		8BA64F90253E8CB60001E473 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				8BD3126D253D2D8200670AC5 /* Info.plist */,
 				8BD31268253D2D8200670AC5 /* Assets.xcassets */,
-				8BA64F91253E8CBD0001E473 /* Formatters */,
+				8BD3126D253D2D8200670AC5 /* Info.plist */,
 				8BA64FBD253EB27F0001E473 /* Localizable.strings */,
+				8BA64F91253E8CBD0001E473 /* Formatters */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -123,12 +123,12 @@
 		8BD3125E253D2D8100670AC5 /* Bitcoin-Blockchain */ = {
 			isa = PBXGroup;
 			children = (
-				8BA64F90253E8CB60001E473 /* SupportFiles */,
 				8BD3129B253D2F0D00670AC5 /* Application */,
 				8BD31281253D2DE000670AC5 /* Domain */,
 				8BD31288253D2DE000670AC5 /* Extensions */,
 				8BD3128A253D2DE000670AC5 /* Network */,
 				8BD31274253D2DD000670AC5 /* Scenes */,
+				8BA64F90253E8CB60001E473 /* SupportFiles */,
 				8BD31265253D2D8100670AC5 /* Main.storyboard */,
 				8BD3126A253D2D8200670AC5 /* LaunchScreen.storyboard */,
 			);

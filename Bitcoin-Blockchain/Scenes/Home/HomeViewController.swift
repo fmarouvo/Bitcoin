@@ -61,7 +61,7 @@ class HomeViewController: UIViewController {
                 guard let self = self else { return }
                 self.entries = Array(variation.map { value in
                     ChartDataEntry(x: value.date, y: value.value)
-                }.prefix(100))
+                }.suffix(60))
                 self.setDataCount(self.entries)
                 self.updateChartData()
             }).disposed(by: disposeBag)
@@ -101,8 +101,8 @@ class HomeViewController: UIViewController {
         leftAxis.labelFont = .systemFont(ofSize: 8, weight: .light)
         leftAxis.drawGridLinesEnabled = true
         leftAxis.granularityEnabled = true
-        leftAxis.axisMinimum = 6500
-        leftAxis.axisMaximum = 9600
+        leftAxis.axisMinimum = 10000
+        leftAxis.axisMaximum = 12000
         leftAxis.yOffset = 0
         leftAxis.labelTextColor = .darkGray
         

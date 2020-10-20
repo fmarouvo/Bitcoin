@@ -45,31 +45,13 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hlg-uy-bNx">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-gb-JJB" customClass="LineChartView" customModule="Charts">
                                             <rect key="frame" x="0.0" y="88" width="414" height="360"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-gb-JJB" customClass="LineChartView" customModule="Charts">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="360"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="360" id="J6v-D4-uRQ"/>
-                                                        <constraint firstAttribute="width" constant="382" id="NjQ-Yg-qja"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="VBl-gb-JJB" secondAttribute="bottom" id="1jA-Gh-9fW"/>
-                                                <constraint firstItem="VBl-gb-JJB" firstAttribute="top" secondItem="ulK-D2-4fA" secondAttribute="top" id="DK1-25-6n2"/>
-                                                <constraint firstItem="VBl-gb-JJB" firstAttribute="bottom" secondItem="ulK-D2-4fA" secondAttribute="bottom" id="FUa-NB-go7"/>
-                                                <constraint firstItem="VBl-gb-JJB" firstAttribute="leading" secondItem="ulK-D2-4fA" secondAttribute="leading" id="JBf-zF-RsE"/>
-                                                <constraint firstAttribute="height" constant="360" id="YmY-Bq-vOj"/>
-                                                <constraint firstAttribute="trailing" secondItem="VBl-gb-JJB" secondAttribute="trailing" id="oYD-hF-agc"/>
-                                                <constraint firstAttribute="trailing" secondItem="VBl-gb-JJB" secondAttribute="trailing" id="xYa-6x-rDR"/>
+                                                <constraint firstAttribute="height" constant="360" id="J6v-D4-uRQ"/>
                                             </constraints>
-                                            <viewLayoutGuide key="contentLayoutGuide" id="Npp-78-UwM"/>
-                                            <viewLayoutGuide key="frameLayoutGuide" id="ulK-D2-4fA"/>
-                                        </scrollView>
+                                        </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-Xt-hts">
                                             <rect key="frame" x="16" y="476" width="382" height="128"/>
                                             <subviews>
@@ -108,15 +90,16 @@
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="Hlg-uy-bNx" secondAttribute="trailing" id="EeZ-to-43W"/>
-                                        <constraint firstAttribute="bottom" secondItem="mM5-Xt-hts" secondAttribute="bottom" constant="40" id="HHK-M8-xFH"/>
-                                        <constraint firstItem="mM5-Xt-hts" firstAttribute="top" secondItem="Hlg-uy-bNx" secondAttribute="bottom" constant="28" id="J7H-2X-rF9"/>
+                                        <constraint firstAttribute="trailing" secondItem="VBl-gb-JJB" secondAttribute="trailing" id="BNE-4N-71c"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mM5-Xt-hts" secondAttribute="bottom" constant="40" id="HHK-M8-xFH"/>
+                                        <constraint firstItem="mM5-Xt-hts" firstAttribute="top" secondItem="VBl-gb-JJB" secondAttribute="bottom" constant="28" id="Njl-Y3-Iig"/>
                                         <constraint firstItem="mM5-Xt-hts" firstAttribute="leading" secondItem="vOl-Yf-668" secondAttribute="leading" constant="16" id="RJa-Pr-AOU"/>
                                         <constraint firstAttribute="trailing" secondItem="psL-Kw-sQa" secondAttribute="trailing" constant="16" id="Yrq-aE-YRT"/>
-                                        <constraint firstItem="Hlg-uy-bNx" firstAttribute="top" secondItem="psL-Kw-sQa" secondAttribute="bottom" constant="28" id="aO2-D5-aoy"/>
-                                        <constraint firstItem="Hlg-uy-bNx" firstAttribute="leading" secondItem="vOl-Yf-668" secondAttribute="leading" id="aZK-R5-W2h"/>
                                         <constraint firstItem="psL-Kw-sQa" firstAttribute="leading" secondItem="vOl-Yf-668" secondAttribute="leading" constant="16" id="bGy-4J-xWI"/>
+                                        <constraint firstAttribute="bottom" secondItem="mM5-Xt-hts" secondAttribute="bottom" priority="800" constant="40" id="caj-sI-hDW"/>
+                                        <constraint firstItem="VBl-gb-JJB" firstAttribute="leading" secondItem="vOl-Yf-668" secondAttribute="leading" id="fMl-Ay-RTx"/>
                                         <constraint firstAttribute="trailing" secondItem="mM5-Xt-hts" secondAttribute="trailing" constant="16" id="g0U-lH-d9N"/>
+                                        <constraint firstItem="VBl-gb-JJB" firstAttribute="top" secondItem="psL-Kw-sQa" secondAttribute="bottom" constant="28" id="h8c-em-AKn"/>
                                         <constraint firstItem="psL-Kw-sQa" firstAttribute="top" secondItem="vOl-Yf-668" secondAttribute="top" constant="24" id="pvr-VG-Cck"/>
                                     </constraints>
                                 </view>
@@ -153,9 +136,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

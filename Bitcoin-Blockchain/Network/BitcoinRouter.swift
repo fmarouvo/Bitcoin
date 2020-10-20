@@ -19,7 +19,7 @@ extension BitcoinRouter: RouterType {
     var path: String {
         switch self {
         case .fetchStats: return "stats"
-        case .fetchMarketPrice: return "charts/market-price?timespan=1months"
+        case .fetchMarketPrice: return "charts/market-price?timespan=1week"
         }
     }
     

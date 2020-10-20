@@ -15,9 +15,13 @@ protocol FetchMarketPriceVariationUseCase {
 final class FetchMarketPriceVariationUseCaseImpl: FetchMarketPriceVariationUseCase {
     
     let apiClient = ApiClient()
+    let repository = LocalRepository()
     
     func fetchMarketPriceVariationUseCase() -> Single<MarketPriceVariationResponse> {
         apiClient.requestSingle(BitcoinRouter.fetchMarketPrice, type: MarketPriceVariationResponse.self)
+            .flatMap { marketPriceVariation in
+                self.repository.saveMarketPriceVariation(data: marketPriceVariation)
+            }
     }
     
 }
