@@ -5,13 +5,16 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Bitcoin_Blockchain" customModuleProvider="target">
             <connections>
                 <outlet property="chartView" destination="VBl-gb-JJB" id="1Wq-iw-NXe"/>
+                <outlet property="lastQuoteCard" destination="mM5-Xt-hts" id="Nm8-tp-mnc"/>
+                <outlet property="lastQuoteTileLabel" destination="JdF-kl-TgB" id="QL8-BB-xU3"/>
+                <outlet property="lastQuoteUpdatedAtLabel" destination="BqZ-Tq-ziO" id="bmp-6r-Qlu"/>
+                <outlet property="lastQuoteValueLabel" destination="1Al-DD-sna" id="BmL-EQ-lel"/>
                 <outlet property="titleLabel" destination="psL-Kw-sQa" id="GUN-BN-eeo"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="Mm5-bY-MUL"/>
             </connections>
@@ -21,38 +24,69 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psL-Kw-sQa">
-                    <rect key="frame" x="186" y="72" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psL-Kw-sQa">
+                    <rect key="frame" x="16" y="72" width="382" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-gb-JJB" customClass="LineChartView" customModule="Charts">
-                    <rect key="frame" x="16" y="121" width="382" height="280"/>
-                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-gb-JJB" customClass="LineChartView" customModule="Charts">
+                    <rect key="frame" x="16" y="117" width="382" height="360"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="280" id="J6v-D4-uRQ"/>
+                        <constraint firstAttribute="height" constant="360" id="J6v-D4-uRQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-Xt-hts">
+                    <rect key="frame" x="16" y="525" width="382" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdF-kl-TgB">
+                            <rect key="frame" x="16" y="16" width="350" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqZ-Tq-ziO">
+                            <rect key="frame" x="16" y="91" width="350" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Al-DD-sna">
+                            <rect key="frame" x="123" y="32" width="136" height="64.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="54"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.27126246062569515" green="0.56608975012440899" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JdF-kl-TgB" firstAttribute="leading" secondItem="mM5-Xt-hts" secondAttribute="leading" constant="16" id="75D-2y-47H"/>
+                        <constraint firstItem="JdF-kl-TgB" firstAttribute="top" secondItem="mM5-Xt-hts" secondAttribute="top" constant="16" id="9YD-XZ-A3P"/>
+                        <constraint firstItem="BqZ-Tq-ziO" firstAttribute="leading" secondItem="mM5-Xt-hts" secondAttribute="leading" constant="16" id="NmB-Yl-Flj"/>
+                        <constraint firstAttribute="trailing" secondItem="JdF-kl-TgB" secondAttribute="trailing" constant="16" id="S1l-ba-fAC"/>
+                        <constraint firstAttribute="bottom" secondItem="BqZ-Tq-ziO" secondAttribute="bottom" constant="16" id="T2B-ZA-vBk"/>
+                        <constraint firstAttribute="trailing" secondItem="BqZ-Tq-ziO" secondAttribute="trailing" constant="16" id="UOz-T4-gHj"/>
+                        <constraint firstAttribute="height" constant="128" id="dkQ-fb-Cbe"/>
+                        <constraint firstItem="1Al-DD-sna" firstAttribute="centerY" secondItem="mM5-Xt-hts" secondAttribute="centerY" id="l15-sD-7gy"/>
+                        <constraint firstItem="1Al-DD-sna" firstAttribute="centerX" secondItem="mM5-Xt-hts" secondAttribute="centerX" id="mEc-jT-dQm"/>
                     </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemGreenColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="VBl-gb-JJB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="3pb-BH-DJF"/>
                 <constraint firstItem="psL-Kw-sQa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="28" id="5GD-a2-rXd"/>
+                <constraint firstItem="mM5-Xt-hts" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6nx-HD-kxf"/>
+                <constraint firstItem="mM5-Xt-hts" firstAttribute="top" secondItem="VBl-gb-JJB" secondAttribute="bottom" constant="48" id="7fe-eR-X9O"/>
                 <constraint firstItem="VBl-gb-JJB" firstAttribute="top" secondItem="psL-Kw-sQa" secondAttribute="bottom" constant="28" id="F4h-sC-UmW"/>
-                <constraint firstItem="psL-Kw-sQa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="M1J-f8-jaq"/>
+                <constraint firstItem="psL-Kw-sQa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="J4n-OU-dXP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mM5-Xt-hts" secondAttribute="trailing" constant="16" id="XX4-Zz-sw7"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VBl-gb-JJB" secondAttribute="trailing" constant="16" id="llw-s6-8P5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="psL-Kw-sQa" secondAttribute="trailing" constant="16" id="pj5-aP-SMg"/>
             </constraints>
-            <point key="canvasLocation" x="-54" y="104"/>
+            <point key="canvasLocation" x="-55.072463768115945" y="103.79464285714285"/>
         </view>
     </objects>
-    <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>
