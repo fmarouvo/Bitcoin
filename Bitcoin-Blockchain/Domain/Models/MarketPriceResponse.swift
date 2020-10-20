@@ -9,8 +9,10 @@ import Foundation
 
 struct MarketPriceResponse: Codable {
     let marketPrice: Double
+    let updatedAt: Date
     
     enum CodingKeys: String, CodingKey {
         case marketPrice = "market_price_usd"
+        case updatedAt = "timestamp"
     }
 }

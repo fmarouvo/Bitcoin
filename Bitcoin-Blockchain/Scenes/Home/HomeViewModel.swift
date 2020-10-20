@@ -15,7 +15,7 @@ protocol HomeViewModelInput: AnyObject {
 }
 
 protocol HomeViewModelOutput: AnyObject {
-    var onMarketPriceFetched: Driver<String> { get }
+    var onMarketPriceFetched: Driver<MarketPriceResponseDisplayable> { get }
     var onMarketPriceVariationFetched: Driver<[MarketPriceValues]> { get }
 }
 
@@ -26,7 +26,7 @@ protocol HomeViewModelType: AnyObject {
 
 class HomeViewModel: HomeViewModelType, HomeViewModelInput, HomeViewModelOutput {
     
-    let onMarketPriceFetched: Driver<String>
+    let onMarketPriceFetched: Driver<MarketPriceResponseDisplayable>
     let onMarketPriceVariationFetched: Driver<[MarketPriceValues]>
     
     init(interactor: HomeInteractable) {
@@ -34,8 +34,15 @@ class HomeViewModel: HomeViewModelType, HomeViewModelInput, HomeViewModelOutput 
         onMarketPriceFetched = fetchMarketPrice.asDriver(onErrorJustReturn: Void())
             .flatMap { _ in
                 interactor.fetchMarketPriceUseCase()
-                    .map { $0.marketPrice.convertToMoneyWithTwoDecimals() }
-                    .asDriver(onErrorJustReturn: "R$ 0,00")
+                    .map { marketPriceResponse in
+                        return MarketPriceResponseDisplayable(
+                            marketPrice: marketPriceResponse.marketPrice.convertToMoneyWithTwoDecimals(),
+                            updatedAt: marketPriceResponse.updatedAt.dateFromTimestamp().formatted(using: .dateAndTime))
+                    }
+                    .asDriver(onErrorJustReturn: MarketPriceResponseDisplayable(
+                                marketPrice: "0",
+                                updatedAt: Date().formatted(using: .dateAndTime)
+                    ))
             }
         
         onMarketPriceVariationFetched = fetchMarketPriceVariation.asDriver(onErrorJustReturn: Void())
@@ -53,4 +60,14 @@ class HomeViewModel: HomeViewModelType, HomeViewModelInput, HomeViewModelOutput 
     var input: HomeViewModelInput { return self }
     var output: HomeViewModelOutput { return self }
     
+}
+
+class MarketPriceResponseDisplayable {
+    let marketPrice: String
+    let updatedAt: String
+    
+    init(marketPrice: String, updatedAt: String) {
+        self.marketPrice = marketPrice
+        self.updatedAt = updatedAt
+    }
 }

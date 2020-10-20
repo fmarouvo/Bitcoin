@@ -13,5 +13,6 @@ target 'Bitcoin-Blockchain' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Charts'
+  pod 'SkeletonView'
 
 end

@@ -9,6 +9,6 @@
 /* HomeViewController */
 "Home.Label.Title" = "Preço médio de mercado em dólares americanos nas principais bolsas de bitcoin";
 "Home.LastQuoteView.Label.LastQuote" = "Última cotação";
-"Home.LastQuoteView.Label.UpdatedAt" = "atualizado em: %d";
-"Home.LastQuoteView.Label.Value" = "U$ %d";
+"Home.LastQuoteView.Label.UpdatedAt" = "atualizado em: %@";
+"Home.LastQuoteView.Label.Value" = "$ %@";
 /* HomeViewController */

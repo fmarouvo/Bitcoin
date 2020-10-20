@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import Charts
+import SkeletonView
 
 class HomeViewController: UIViewController {
 
@@ -17,6 +18,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var lastQuoteTileLabel: UILabel!
     @IBOutlet weak var lastQuoteValueLabel: UILabel!
     @IBOutlet weak var lastQuoteUpdatedAtLabel: UILabel!
+    @IBOutlet weak var lastQuoteView: UIView!
     
     private let viewModel: HomeViewModelType
     private let disposeBag = DisposeBag()
@@ -44,9 +46,13 @@ class HomeViewController: UIViewController {
 
     func prepareViewModel() {
         viewModel.output.onMarketPriceFetched
-            .drive(onNext: { [weak self] price in
+            .drive(onNext: { [weak self] marketPriceResponse in
                 guard let self = self else { return }
-                self.lastQuoteValueLabel.text = NSLocalizedString("Home.LastQuoteView.Label.Value", comment: "", price)
+                self.lastQuoteValueLabel.text = NSLocalizedString("Home.LastQuoteView.Label.Value", comment: "")
+                    .localizeWithFormat(arguments: marketPriceResponse.marketPrice)
+                self.lastQuoteUpdatedAtLabel.text = NSLocalizedString("Home.LastQuoteView.Label.UpdatedAt", comment: "")
+                    .localizeWithFormat(arguments: marketPriceResponse.updatedAt)
+                self.lastQuoteView.hideSkeleton()
             }).disposed(by: disposeBag)
         
         viewModel.output.onMarketPriceVariationFetched
@@ -108,12 +114,15 @@ class HomeViewController: UIViewController {
     func prepareLabels() {
         titleLabel.text = NSLocalizedString("Home.Label.Title", comment: "")
         lastQuoteTileLabel.text = NSLocalizedString("Home.LastQuoteView.Label.LastQuote", comment: "")
-        lastQuoteValueLabel.text = NSLocalizedString("Home.LastQuoteView.Label.Value", comment: "")
-        lastQuoteUpdatedAtLabel.text = NSLocalizedString("LastQuoteView.Label.UpdatedAt", comment: "")
+        lastQuoteValueLabel.text = NSLocalizedString("", comment: "")
+        lastQuoteUpdatedAtLabel.text = NSLocalizedString("Home.LastQuoteView.Label.UpdatedAt", comment: "")
     }
     
     func prepareViews() {
         lastQuoteCard.layer.cornerRadius = 12
+        
+        lastQuoteView.isSkeletonable = true
+        lastQuoteView.showAnimatedSkeleton()
     }
     
 }

@@ -9,16 +9,20 @@ import Foundation
 
 extension Double {
     func convertToMoneyWithTwoDecimals() -> String {
-        let value: NSNumber = self as NSNumber
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        formatter.maximumFractionDigits = 2
-        let result = formatter.string(from: value) ?? ""
-        return result
+        let currencyFormatter = NumberFormatter()
+        
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = Locale.current
+        currencyFormatter.currencySymbol = ""
+        
+        return currencyFormatter.string(from: NSNumber(value: self))!
     }
     
     func rounded(toPlaces places:Int) -> Double {
         let doubleString = String(format: "%.\(places)f", self)
+        
         return Double(doubleString) ?? 0
     }
+    
 }
