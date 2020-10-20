@@ -12,13 +12,14 @@ import SkeletonView
 
 class HomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var chartView: LineChartView!
-    @IBOutlet weak var lastQuoteCard: UIView!
-    @IBOutlet weak var lastQuoteTileLabel: UILabel!
-    @IBOutlet weak var lastQuoteValueLabel: UILabel!
-    @IBOutlet weak var lastQuoteUpdatedAtLabel: UILabel!
-    @IBOutlet weak var lastQuoteView: UIView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var chartView: LineChartView!
+    @IBOutlet private weak var lastQuoteCard: UIView!
+    @IBOutlet private weak var lastQuoteTileLabel: UILabel!
+    @IBOutlet private weak var lastQuoteValueLabel: UILabel!
+    @IBOutlet private weak var lastQuoteUpdatedAtLabel: UILabel!
+    @IBOutlet private weak var lastQuoteView: UIView!
+    @IBOutlet private weak var scrollView: UIScrollView!
     
     private let viewModel: HomeViewModelType
     private let disposeBag = DisposeBag()
@@ -60,7 +61,7 @@ class HomeViewController: UIViewController {
                 guard let self = self else { return }
                 self.entries = Array(variation.map { value in
                     ChartDataEntry(x: value.date, y: value.value)
-                }.prefix(30))
+                }.prefix(100))
                 self.setDataCount(self.entries)
                 self.updateChartData()
             }).disposed(by: disposeBag)
@@ -87,7 +88,7 @@ class HomeViewController: UIViewController {
         
         let xAxis = chartView.xAxis
         xAxis.labelPosition = .bottom
-        xAxis.labelFont = .systemFont(ofSize: 10, weight: .light)
+        xAxis.labelFont = .systemFont(ofSize: 8, weight: .light)
         xAxis.labelTextColor = .darkGray
         xAxis.drawAxisLineEnabled = true
         xAxis.drawGridLinesEnabled = false
@@ -97,10 +98,10 @@ class HomeViewController: UIViewController {
         
         let leftAxis = chartView.leftAxis
         leftAxis.labelPosition = .outsideChart
-        leftAxis.labelFont = .systemFont(ofSize: 12, weight: .light)
+        leftAxis.labelFont = .systemFont(ofSize: 8, weight: .light)
         leftAxis.drawGridLinesEnabled = true
         leftAxis.granularityEnabled = true
-        leftAxis.axisMinimum = 7000
+        leftAxis.axisMinimum = 6500
         leftAxis.axisMaximum = 9600
         leftAxis.yOffset = 0
         leftAxis.labelTextColor = .darkGray
