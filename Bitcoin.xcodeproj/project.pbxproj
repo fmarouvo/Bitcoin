@@ -64,7 +64,7 @@
 		8BA64FC8253EB78D0001E473 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
 		8BA64FCB253EB9160001E473 /* DateFormatter+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+String.swift"; sourceTree = "<group>"; };
 		8BA64FCF253EBA3D0001E473 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
-		8BD3125C253D2D8100670AC5 /* Bitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD3125C253D2D8100670AC5 /* Fausto Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fausto Teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD3125F253D2D8100670AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD31268253D2D8200670AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD3126B253D2D8200670AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		8BD3125D253D2D8100670AC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BD3125C253D2D8100670AC5 /* Bitcoin.app */,
+				8BD3125C253D2D8100670AC5 /* Fausto Teste.app */,
 				8B688CF1253FB0D900E25C9B /* BitcoinTests.xctest */,
 			);
 			name = Products;
@@ -330,7 +330,7 @@
 			);
 			name = Bitcoin;
 			productName = "Bitcoin-Blockchain";
-			productReference = 8BD3125C253D2D8100670AC5 /* Bitcoin.app */;
+			productReference = 8BD3125C253D2D8100670AC5 /* Fausto Teste.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -727,7 +727,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castagnari.Bitcoin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fausto Teste";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -750,7 +750,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castagnari.Bitcoin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fausto Teste";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
