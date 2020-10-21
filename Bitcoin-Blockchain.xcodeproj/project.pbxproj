@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B688D03253FB12600E25C9B /* HomeInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B688D01253FB12600E25C9B /* HomeInteractorTests.swift */; };
+		8B688D04253FB12600E25C9B /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B688D02253FB12600E25C9B /* HomeViewModelTests.swift */; };
+		8B688D0A253FB19B00E25C9B /* Bitcoin_BlockchainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B688D09253FB19B00E25C9B /* Bitcoin_BlockchainTests.swift */; };
 		8BA33FDE253E55EF001CB209 /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FDD253E55EF001CB209 /* LocalRepository.swift */; };
 		8BA33FE1253E5615001CB209 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA33FE0253E5615001CB209 /* ApiClient.swift */; };
 		8BA64F93253E8CCF0001E473 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA64F92253E8CCF0001E473 /* DateValueFormatter.swift */; };
@@ -17,7 +20,6 @@
 		8BA64FCC253EB9160001E473 /* DateFormatter+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA64FCB253EB9160001E473 /* DateFormatter+String.swift */; };
 		8BA64FD0253EBA3D0001E473 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA64FCF253EBA3D0001E473 /* Date+String.swift */; };
 		8BD31260253D2D8100670AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3125F253D2D8100670AC5 /* AppDelegate.swift */; };
-		8BD31267253D2D8100670AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD31265253D2D8100670AC5 /* Main.storyboard */; };
 		8BD31269253D2D8200670AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD31268253D2D8200670AC5 /* Assets.xcassets */; };
 		8BD3126C253D2D8200670AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD3126A253D2D8200670AC5 /* LaunchScreen.storyboard */; };
 		8BD3127B253D2DD000670AC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD31276253D2DD000670AC5 /* HomeViewModel.swift */; };
@@ -32,9 +34,24 @@
 		C9D2314F119F4F7FB0CE3D31 /* Pods_Bitcoin_Blockchain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E76E6FA885E0AB5C2320DC /* Pods_Bitcoin_Blockchain.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8B688CF6253FB0D900E25C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD31254253D2D8100670AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD3125B253D2D8100670AC5;
+			remoteInfo = "Bitcoin-Blockchain";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		36E76E6FA885E0AB5C2320DC /* Pods_Bitcoin_Blockchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcoin_Blockchain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD0DB3BE4EC1B6C2AACCD3D /* Pods-Bitcoin-Blockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcoin-Blockchain.debug.xcconfig"; path = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.debug.xcconfig"; sourceTree = "<group>"; };
+		8B688CF1253FB0D900E25C9B /* Bitcoin-BlockchainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin-BlockchainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B688CF5253FB0D900E25C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B688D01253FB12600E25C9B /* HomeInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTests.swift; sourceTree = "<group>"; };
+		8B688D02253FB12600E25C9B /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		8B688D09253FB19B00E25C9B /* Bitcoin_BlockchainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitcoin_BlockchainTests.swift; sourceTree = "<group>"; };
 		8BA33FDD253E55EF001CB209 /* LocalRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalRepository.swift; sourceTree = "<group>"; };
 		8BA33FE0253E5615001CB209 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		8BA64F92253E8CCF0001E473 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
@@ -46,7 +63,6 @@
 		8BA64FCF253EBA3D0001E473 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		8BD3125C253D2D8100670AC5 /* Bitcoin-Blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin-Blockchain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD3125F253D2D8100670AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BD31266253D2D8100670AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BD31268253D2D8200670AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD3126B253D2D8200670AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD3126D253D2D8200670AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B688CEE253FB0D900E25C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BD31259253D2D8100670AC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +104,49 @@
 				DFFDB8EABA14040F943F5E16 /* Pods-Bitcoin-Blockchain.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B688CF2253FB0D900E25C9B /* Bitcoin-BlockchainTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B688CFF253FB10100E25C9B /* Domain */,
+				8B688CFD253FB0F000E25C9B /* Scenes */,
+				8B688CF5253FB0D900E25C9B /* Info.plist */,
+				8B688D09253FB19B00E25C9B /* Bitcoin_BlockchainTests.swift */,
+			);
+			path = "Bitcoin-BlockchainTests";
+			sourceTree = "<group>";
+		};
+		8B688CFD253FB0F000E25C9B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8B688CFE253FB0FA00E25C9B /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8B688CFE253FB0FA00E25C9B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8B688D01253FB12600E25C9B /* HomeInteractorTests.swift */,
+				8B688D02253FB12600E25C9B /* HomeViewModelTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B688CFF253FB10100E25C9B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8B688D00253FB10900E25C9B /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8B688D00253FB10900E25C9B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		8BA64F90253E8CB60001E473 /* SupportFiles */ = {
@@ -106,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				8BD3125E253D2D8100670AC5 /* Bitcoin-Blockchain */,
+				8B688CF2253FB0D900E25C9B /* Bitcoin-BlockchainTests */,
 				8BD3125D253D2D8100670AC5 /* Products */,
 				5BEEDCF565CB18FAC50A7743 /* Pods */,
 				8D35D38DB6CD2685C491E00F /* Frameworks */,
@@ -116,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8BD3125C253D2D8100670AC5 /* Bitcoin-Blockchain.app */,
+				8B688CF1253FB0D900E25C9B /* Bitcoin-BlockchainTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +197,6 @@
 				8BD3128A253D2DE000670AC5 /* Network */,
 				8BD31274253D2DD000670AC5 /* Scenes */,
 				8BA64F90253E8CB60001E473 /* SupportFiles */,
-				8BD31265253D2D8100670AC5 /* Main.storyboard */,
 				8BD3126A253D2D8200670AC5 /* LaunchScreen.storyboard */,
 			);
 			path = "Bitcoin-Blockchain";
@@ -222,6 +289,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8B688CF0253FB0D900E25C9B /* Bitcoin-BlockchainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B688CF8253FB0D900E25C9B /* Build configuration list for PBXNativeTarget "Bitcoin-BlockchainTests" */;
+			buildPhases = (
+				8B688CED253FB0D900E25C9B /* Sources */,
+				8B688CEE253FB0D900E25C9B /* Frameworks */,
+				8B688CEF253FB0D900E25C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B688CF7253FB0D900E25C9B /* PBXTargetDependency */,
+			);
+			name = "Bitcoin-BlockchainTests";
+			productName = "Bitcoin-BlockchainTests";
+			productReference = 8B688CF1253FB0D900E25C9B /* Bitcoin-BlockchainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8BD3125B253D2D8100670AC5 /* Bitcoin-Blockchain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD31270253D2D8200670AC5 /* Build configuration list for PBXNativeTarget "Bitcoin-Blockchain" */;
@@ -250,6 +335,10 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					8B688CF0253FB0D900E25C9B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8BD3125B253D2D8100670AC5;
+					};
 					8BD3125B253D2D8100670AC5 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -269,11 +358,19 @@
 			projectRoot = "";
 			targets = (
 				8BD3125B253D2D8100670AC5 /* Bitcoin-Blockchain */,
+				8B688CF0253FB0D900E25C9B /* Bitcoin-BlockchainTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B688CEF253FB0D900E25C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BD3125A253D2D8100670AC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,7 +378,6 @@
 				8BA64FBB253EB27F0001E473 /* Localizable.strings in Resources */,
 				8BD3126C253D2D8200670AC5 /* LaunchScreen.storyboard in Resources */,
 				8BD31269253D2D8200670AC5 /* Assets.xcassets in Resources */,
-				8BD31267253D2D8100670AC5 /* Main.storyboard in Resources */,
 				8BA64FA6253E992F0001E473 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +427,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B688CED253FB0D900E25C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B688D0A253FB19B00E25C9B /* Bitcoin_BlockchainTests.swift in Sources */,
+				8B688D03253FB12600E25C9B /* HomeInteractorTests.swift in Sources */,
+				8B688D04253FB12600E25C9B /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BD31258253D2D8100670AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +463,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8B688CF7253FB0D900E25C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD3125B253D2D8100670AC5 /* Bitcoin-Blockchain */;
+			targetProxy = 8B688CF6253FB0D900E25C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		8BA64FBD253EB27F0001E473 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -364,14 +478,6 @@
 				8BA64FBC253EB27F0001E473 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		8BD31265253D2D8100670AC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BD31266253D2D8100670AC5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		8BD3126A253D2D8200670AC5 /* LaunchScreen.storyboard */ = {
@@ -385,6 +491,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8B688CF9253FB0D900E25C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitcoin-BlockchainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castagnari.Bitcoin.Bitcoin-BlockchainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin-Blockchain.app/Bitcoin-Blockchain";
+			};
+			name = Debug;
+		};
+		8B688CFA253FB0D900E25C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitcoin-BlockchainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castagnari.Bitcoin.Bitcoin-BlockchainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin-Blockchain.app/Bitcoin-Blockchain";
+			};
+			name = Release;
+		};
 		8BD3126E253D2D8200670AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -544,6 +688,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8B688CF8253FB0D900E25C9B /* Build configuration list for PBXNativeTarget "Bitcoin-BlockchainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B688CF9253FB0D900E25C9B /* Debug */,
+				8B688CFA253FB0D900E25C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8BD31257253D2D8100670AC5 /* Build configuration list for PBXProject "Bitcoin-Blockchain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
