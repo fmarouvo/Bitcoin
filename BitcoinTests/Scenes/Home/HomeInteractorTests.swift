@@ -51,8 +51,6 @@ final class HomeInteractorTests: XCTestCase {
         sut.fetchMarketPriceUseCase()
             .subscribe(onSuccess: { _ in
                 XCTAssert(true)
-            }, onError: { _ in
-                XCTFail()
             })
             .disposed(by: disposeBag)
     }
@@ -62,8 +60,6 @@ final class HomeInteractorTests: XCTestCase {
         sut.fetchMarketPriceVariationUseCase()
             .subscribe(onSuccess: { _ in
                 XCTAssert(true)
-            }, onError: { _ in
-                XCTFail()
             })
             .disposed(by: disposeBag)
     }
