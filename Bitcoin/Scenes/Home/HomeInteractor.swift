@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 
+// sourcery: AutoMockable
 protocol HomeInteractable: AnyObject, FetchMarketPriceUseCase, FetchMarketPriceVariationUseCase {}
 
 final class HomeInteractor: HomeInteractable {

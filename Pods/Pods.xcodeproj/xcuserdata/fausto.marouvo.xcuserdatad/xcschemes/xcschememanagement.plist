@@ -19,7 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BitcoinTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RxAlamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxBlocking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -35,6 +45,11 @@
 			<false/>
 		</dict>
 		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

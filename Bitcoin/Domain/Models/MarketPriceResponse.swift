@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MarketPriceResponse: Codable {
+struct MarketPriceResponse: Codable, Equatable {
     let marketPrice: Double
     let updatedAt: Date
     

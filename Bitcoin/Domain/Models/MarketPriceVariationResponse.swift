@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MarketPriceVariationResponse: Codable {
+struct MarketPriceVariationResponse: Codable, Equatable {
     let marketPriceValues: [MarketPriceValues]
     
     enum CodingKeys: String, CodingKey {
@@ -15,7 +15,7 @@ struct MarketPriceVariationResponse: Codable {
     }
 }
 
-struct MarketPriceValues: Codable {
+struct MarketPriceValues: Codable, Equatable {
     let date: TimeInterval
     let value: Double
     

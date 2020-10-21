@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 
+// sourcery: AutoMockable
 protocol FetchMarketPriceUseCase {
     func fetchMarketPriceUseCase() -> Single<MarketPriceResponse>
 }

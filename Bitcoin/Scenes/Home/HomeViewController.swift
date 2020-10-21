@@ -50,9 +50,9 @@ class HomeViewController: UIViewController {
             .drive(onNext: { [weak self] marketPriceResponse in
                 guard let self = self else { return }
                 self.lastQuoteValueLabel.text = NSLocalizedString("Home.LastQuoteView.Label.Value", comment: "")
-                    .localizeWithFormat(arguments: marketPriceResponse.marketPrice)
+                    .localizeWithFormat(arguments: marketPriceResponse.marketPrice.convertToMoneyWithTwoDecimals())
                 self.lastQuoteUpdatedAtLabel.text = NSLocalizedString("Home.LastQuoteView.Label.UpdatedAt", comment: "")
-                    .localizeWithFormat(arguments: marketPriceResponse.updatedAt)
+                    .localizeWithFormat(arguments: marketPriceResponse.updatedAt.dateFromTimestamp().formatted(using: .dateAndTime))
                 self.lastQuoteView.hideSkeleton()
             }).disposed(by: disposeBag)
         
