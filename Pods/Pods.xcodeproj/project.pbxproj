@@ -35,7 +35,6 @@
 		0DF0416B95FF4D56A1CEC113762B9E93 /* UILabel+Multiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5A9D3BB958A3A3361C214C82133C9 /* UILabel+Multiline.swift */; };
 		0E7DC6451BEFB26E3A47621C0B7F1C16 /* ViewPortJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3C4876110797920F4FF8990384E56 /* ViewPortJob.swift */; };
 		10331F5A40E9DAA833452A8E3980A902 /* ControlProperty+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB5343F4F1DBFEDC376BB1FDFE4DA5 /* ControlProperty+Driver.swift */; };
-		10C1654377A3E06100623DAD948DB995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192B3656707184F7244180EA910D6DAF /* Foundation.framework */; };
 		1132976D856E1857C4CD9989B9A8EBCE /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462B4CF289AD37022B8A08A608B28150 /* PieChartView.swift */; };
 		1157D0FB71099D50C1D86B22A46C2D85 /* RxWKNavigationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97FA8E34EF805949A889E0C62ED0513 /* RxWKNavigationDelegateProxy.swift */; };
 		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D55040A06C8CFC9648B71D7DAD74F /* AFError.swift */; };
@@ -136,6 +135,7 @@
 		3F4DF4517D1059BE482E602E134A5BA2 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD49D4BFD11911CFBB58C32071EAB8D /* AsMaybe.swift */; };
 		402F0DBB21DF2E7B25044A0B33DB5EF2 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A89BCBF6ACE86CBB4E8BEE2F230335 /* Create.swift */; };
 		40637C59FBEE175C6AB0049D8B9A893A /* NSView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEBF6563F20FFBF7E4E31257389D2C /* NSView+Rx.swift */; };
+		41DFC1AB5268AE5F0069D69971B95950 /* Pods-Bitcoin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E22A6E1BB5B31031CEEF50896AE854 /* Pods-Bitcoin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42647EEE57B042DAB0C7CEE7BCF64EC0 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC2FB5D8ECAF51C8413EACCD7265CD /* ConcurrentDispatchQueueScheduler.swift */; };
 		428269FAE739F3BF98900D0A8F653435 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9837A39F28972A1AE5CE46CE5E324FE5 /* Utils.swift */; };
 		42CCA88FE13995C4DE8CB024EEDF022A /* RxPickerViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055CB30574D0C0342EF4847439A94E8A /* RxPickerViewDataSourceProxy.swift */; };
@@ -151,6 +151,7 @@
 		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE373E81A9EFCBF5BBCE11E9627DA3 /* ServerTrustEvaluation.swift */; };
 		47FE18F0803B12A79084C56D143FB415 /* KVORepresentable+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EF014795579021942E6DA5A090335 /* KVORepresentable+CoreGraphics.swift */; };
 		4836AC5421118D6CD767EA7FEA236190 /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE70104E146F9DF0226EEBB6A21DB68E /* AsSingle.swift */; };
+		48E0B3E3B40991ED5C35893003AFFFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192B3656707184F7244180EA910D6DAF /* Foundation.framework */; };
 		49573AC7B39453D2C1FFA43EA8B7A338 /* RxCollectionViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C304E281CAE48BD5F53F77779B923EBC /* RxCollectionViewReactiveArrayDataSource.swift */; };
 		4975CACC893A427910F64270C28E7275 /* RadarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E874A01B4573986C224F76C0019FC1 /* RadarChartData.swift */; };
 		4994E7B2E69CF616E8E7ECD19014CAE0 /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC68F7927726869E1F984C90A07B7849 /* CandleChartDataSet.swift */; };
@@ -172,6 +173,7 @@
 		5128310DB4D59B51642B2A13972C3434 /* IAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889FD44A249C34C38B9EDDB3E83DD46 /* IAxisValueFormatter.swift */; };
 		51E2C769ABE2EDA0CBC808CE34749AE9 /* UIAlertAction+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC61DC438CF45EEB9D5913C60EA7C5A /* UIAlertAction+Rx.swift */; };
 		532B18B72A872D358410EDFDF45C4372 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593EC703AB250B93F8CE50208BE3FEC8 /* CombineLatest+Collection.swift */; };
+		5338DD5270309F01DD6CF9C8F44E4D0E /* Pods-Bitcoin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8999B4896C010DC450F99FA54CEA00C /* Pods-Bitcoin-dummy.m */; };
 		535108BC2FB7005C5C9B280D6BD536F9 /* RxTableViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AAAE0692B0BD606C47F53234721CF /* RxTableViewDataSourceProxy.swift */; };
 		53772EF4F22DD42A63551C4CD687E9A6 /* LineRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6A34039081849B898B0B1789F6626 /* LineRadarChartDataSet.swift */; };
 		54AAE6366B994D93468ED56C60E4BE1D /* UINavigationItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73508C8F7010DF366CCD754F1231AED /* UINavigationItem+Rx.swift */; };
@@ -272,7 +274,6 @@
 		833AF78782D347999B10CB68FF99CBB7 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D892CAE84DF744149B5794D1F91A7 /* UIPageControl+Rx.swift */; };
 		83907D8546A31C4C4B1E31DA90A0CD77 /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982468DD1532255DF7BBD397B15FBD75 /* ChartLimitLine.swift */; };
 		83BBD232FE2EA04587B21C81B73AFC09 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB08E4065FDEF575A89897F1BFC0FDC8 /* ChartDataEntryBase.swift */; };
-		8536707DE5A04955B27787AE7B8527FC /* Pods-Bitcoin-Blockchain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AABE153B7E377272C60B45FB206506BF /* Pods-Bitcoin-Blockchain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8562C26109739EAD1B4917504D363371 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF4E639B6FE6667F8A597D9F3DEF33 /* ObservableConvertibleType.swift */; };
 		8590E6CE0D551B1EAB699952663AEAAD /* PrepareForSkeletonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241C61C2CB145E713F105BF643CB09E /* PrepareForSkeletonProtocol.swift */; };
 		85BC3DF15F95BC9BB8985A3CE520250D /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A140813C9B54E8E9448D7E152D98F0D /* AnonymousDisposable.swift */; };
@@ -311,7 +312,6 @@
 		93EB4F30176D841E439DE4060F7440AE /* UISwitch+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70281827D2ADA27FF4539860F68791 /* UISwitch+Rx.swift */; };
 		9400854C32DFF16FD068D280CD43176F /* AxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E099B3CDB10E4A0467009C7CBD4EA53E /* AxisBase.swift */; };
 		94921CD3D3FBA3D6572678B1F59AA957 /* TransformerHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD290A9D72DEBB3C5D358097C3F5E98 /* TransformerHorizontalBarChart.swift */; };
-		9495CD2D23630AEA7568AC1E624552F2 /* Pods-Bitcoin-Blockchain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFED75618E8E57DEF86756AF361471AE /* Pods-Bitcoin-Blockchain-dummy.m */; };
 		94F4DAC20B2201C47D1ED7B0E7D77C6C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E43980C0DA0AE577F4B4E1A5F6CE1F /* Error.swift */; };
 		958C357B713AECA31632AB439CFDA258 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486E39D495A6872B1424F87BCDAB26D /* DispatchQueue+Extensions.swift */; };
 		95E5AA5F7C9CA156C334D08328EF72D4 /* RxCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AABAED740F054500C1E141E767D38DC /* RxCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -548,13 +548,6 @@
 			remoteGlobalIDString = 4622BFEF3DC16E8BD15EEFC30D4D0084;
 			remoteInfo = RxRelay;
 		};
-		08BED52C47A6AEEFE1748B684AAE8A02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6;
-			remoteInfo = RxCocoa;
-		};
 		3AA5F122E4B6C1CDC8306AE3F5C627D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -562,33 +555,33 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		54A85B1FBECD86279C0A7E6F2B4A7F04 /* PBXContainerItemProxy */ = {
+		5864B8963877A399E98533E51044637F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		557F3525F76F5C817842485B66905EBF /* PBXContainerItemProxy */ = {
+		60A4A5481DEF20AEE25FAAA271B1322E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4622BFEF3DC16E8BD15EEFC30D4D0084;
 			remoteInfo = RxRelay;
 		};
-		58573EF49D7FE1143565AE434E7C01DE /* PBXContainerItemProxy */ = {
+		95391DCD1FE5239AF0B283C344224107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A538A5499B1706F0983D6826042657B;
+			remoteInfo = RxAlamofire;
+		};
+		AA3898FA1795A53B0BDFDF400C675B2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
-		};
-		8727070C785F333544C2E3BA60D79104 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8CEEFD1CB630CA790F0396E2E24A4C8C;
-			remoteInfo = SkeletonView;
 		};
 		B4FA3FA5BF35DC5C0C1CC3B0BFEB2D48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -597,19 +590,26 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		C683F1AA569850BA6528BFA8A8BF00FB /* PBXContainerItemProxy */ = {
+		BA96CB3DC99FE7691DCF306E5E7EE2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEEFD1CB630CA790F0396E2E24A4C8C;
+			remoteInfo = SkeletonView;
+		};
+		CAF2E92E7826BAD23754910C3130B28B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
 			remoteInfo = Charts;
 		};
-		D8DD9BA5F851673B52C114FBC7E878A8 /* PBXContainerItemProxy */ = {
+		D23D6F2164DEBA6347B47CAEF42DB956 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A538A5499B1706F0983D6826042657B;
-			remoteInfo = RxAlamofire;
+			remoteGlobalIDString = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6;
+			remoteInfo = RxCocoa;
 		};
 		EF2FD7A8BFFD7B1EAE6A98C8451F20AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -659,7 +659,6 @@
 		0FD2B5344ABA0F595F46D4453B1D3E90 /* AnimatedZoomViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedZoomViewJob.swift; path = Source/Charts/Jobs/AnimatedZoomViewJob.swift; sourceTree = "<group>"; };
 		1012B4EC42F07B504DA90DCBEFD2C26F /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		109EF0647DC699E67944271036C9BC41 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
-		1103D9EF639062F2F24D190DCB3D7099 /* Pods-Bitcoin-Blockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin-Blockchain.debug.xcconfig"; sourceTree = "<group>"; };
 		116569E9C22B608E7FE9EEF10863B765 /* IChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IChartDataSet.swift; path = Source/Charts/Data/Interfaces/IChartDataSet.swift; sourceTree = "<group>"; };
 		117F83C5123B93BAD0DB95FFF17483F3 /* RxCocoaObjCRuntimeError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RxCocoaObjCRuntimeError+Extensions.swift"; path = "RxCocoa/Common/RxCocoaObjCRuntimeError+Extensions.swift"; sourceTree = "<group>"; };
 		11ACA359E367E43D6F5BB1337204F280 /* MarkerImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerImage.swift; path = Source/Charts/Components/MarkerImage.swift; sourceTree = "<group>"; };
@@ -668,6 +667,7 @@
 		136D9C69CFCB5CC258CE1884ED065784 /* UIView+UIApplicationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+UIApplicationDelegate.swift"; path = "Sources/Extensions/UIView+UIApplicationDelegate.swift"; sourceTree = "<group>"; };
 		137CD16EFAA489AD0E8EBB3EE93CF8A8 /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
 		13EE757E6DF4B439AE813683F6BA9AC3 /* NSControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSControl+Rx.swift"; path = "RxCocoa/macOS/NSControl+Rx.swift"; sourceTree = "<group>"; };
+		147A8E4CFCFB2CF457F1718A26C1D0F8 /* Pods-Bitcoin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin-acknowledgements.plist"; sourceTree = "<group>"; };
 		14A72EBF97E94E12ECE6D55F06876C90 /* DefaultFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultFillFormatter.swift; path = Source/Charts/Formatters/DefaultFillFormatter.swift; sourceTree = "<group>"; };
 		1526C6A42F5FC268D2A0C7A1D7BAC8A6 /* HistoricalScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalScheduler.swift; path = RxSwift/Schedulers/HistoricalScheduler.swift; sourceTree = "<group>"; };
 		1529B76C1AF49B6689A6BC8E399BA296 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
@@ -768,10 +768,12 @@
 		398D892CAE84DF744149B5794D1F91A7 /* UIPageControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+Rx.swift"; path = "RxCocoa/iOS/UIPageControl+Rx.swift"; sourceTree = "<group>"; };
 		39E26D868BE98E6031A1C55BFB430754 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		3AE2B58D3C354391BD5236B8AE57439F /* LineChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartRenderer.swift; path = Source/Charts/Renderers/LineChartRenderer.swift; sourceTree = "<group>"; };
+		3B0D792201691084FF56331DE8DC3192 /* Pods-Bitcoin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bitcoin.modulemap"; sourceTree = "<group>"; };
 		3B3C182F4BE8C86ECE49C7C5E83A7891 /* RxRelay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxRelay-umbrella.h"; sourceTree = "<group>"; };
 		3B745049FBE8CA2E4C561864C980268D /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
 		3C8AAAE0692B0BD606C47F53234721CF /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		3DDDC77B3F976F64AA0C80FFED4B7E0B /* RxSearchBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift; sourceTree = "<group>"; };
+		3EFED044E87A85C0B8EA4F163B9C065D /* Pods-Bitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin.debug.xcconfig"; sourceTree = "<group>"; };
 		3F149BFCE0E7AFA1293DC10B693360D8 /* UISearchController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchController+Rx.swift"; path = "RxCocoa/iOS/UISearchController+Rx.swift"; sourceTree = "<group>"; };
 		3F2F1EBF7068B1AB93C43BA3FCACE55F /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
 		3FCAE60C83F500E75E76663538C30704 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
@@ -808,7 +810,6 @@
 		4B3E6003178A6140767B492E0992F641 /* IBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		4B4862FCD9359C59C70ADD6A05CEFFA1 /* LineChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartData.swift; path = Source/Charts/Data/Implementations/Standard/LineChartData.swift; sourceTree = "<group>"; };
 		4B5063CF44F0A85D966F530761E34D3C /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxRelay/Observable+Bind.swift"; sourceTree = "<group>"; };
-		4BC3C7CF05388D956969247A494959ED /* Pods_Bitcoin_Blockchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bitcoin_Blockchain.framework; path = "Pods-Bitcoin-Blockchain.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE05D0C8914093E6FBBA64E64F27D11 /* CandleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift; sourceTree = "<group>"; };
 		4D4D2BC18EDDBF4FF11EF4544D80A5DA /* UISlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Rx.swift"; path = "RxCocoa/iOS/UISlider+Rx.swift"; sourceTree = "<group>"; };
 		4D5A51655F2205672837A52525286C9E /* Platform+Graphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Graphics.swift"; path = "Source/Charts/Utils/Platform+Graphics.swift"; sourceTree = "<group>"; };
@@ -849,7 +850,6 @@
 		5C8F039008C2457DACCF6F3060D95020 /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = Source/Charts/Charts/BarChartView.swift; sourceTree = "<group>"; };
 		5C9DCE2DBF73EDD6CD5B7768A1C4A3E9 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D83C0907F1CA480CC8C267F78101833 /* Pods-Bitcoin-Blockchain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin-Blockchain-Info.plist"; sourceTree = "<group>"; };
 		5D931238CCF317EAF744D9D32079C3F3 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxCocoa/Deprecated.swift; sourceTree = "<group>"; };
 		5DD290A9D72DEBB3C5D358097C3F5E98 /* TransformerHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformerHorizontalBarChart.swift; path = Source/Charts/Utils/TransformerHorizontalBarChart.swift; sourceTree = "<group>"; };
 		5E43F605BF9B364B07D36EB0450E2657 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
@@ -904,6 +904,7 @@
 		74AB31FFC034B29909B881929E0FA17F /* ChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataEntry.swift; sourceTree = "<group>"; };
 		74BDA26C62AD6BCA329E99D0B6970DFC /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
 		75B34884C3F4A3297448DE4C45E33E7E /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
+		75E22A6E1BB5B31031CEEF50896AE854 /* Pods-Bitcoin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bitcoin-umbrella.h"; sourceTree = "<group>"; };
 		76162263D7FF1F3E9692917D1B417FF2 /* IScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IScatterChartDataSet.swift; path = Source/Charts/Data/Interfaces/IScatterChartDataSet.swift; sourceTree = "<group>"; };
 		76550428DCA792B1720CFFC8F7E195CE /* RxAlamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxAlamofire.modulemap; sourceTree = "<group>"; };
 		767805BEC44E63EDEDD626B93CF44BB2 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
@@ -924,6 +925,7 @@
 		7D6FFDADA455839AE162EBA03CAF6D5C /* BarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartData.swift; path = Source/Charts/Data/Implementations/Standard/BarChartData.swift; sourceTree = "<group>"; };
 		7DCAE216E807FA29FB26A3A993DA1521 /* CollectionSkeletonProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionSkeletonProtocol.swift; path = Sources/Collections/CollectionSkeletonProtocol.swift; sourceTree = "<group>"; };
 		7F40355E9552A8E0E3D54690C514D9A8 /* HorizontalBarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarHighlighter.swift; path = Source/Charts/Highlight/HorizontalBarHighlighter.swift; sourceTree = "<group>"; };
+		7FBF68638E4AF04330A96481E683C0CB /* Pods_Bitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bitcoin.framework; path = "Pods-Bitcoin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E2EF604EFC300AC9A5824A9C91F987 /* ObservableConvertibleType+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Signal.swift"; path = "RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift"; sourceTree = "<group>"; };
 		810519CB2E8CB7F972A493FAB6C1CF41 /* ContainsMultilineText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainsMultilineText.swift; path = Sources/Multilines/ContainsMultilineText.swift; sourceTree = "<group>"; };
@@ -932,6 +934,7 @@
 		8262E2A1E7C6E4A12E9D6EF9E5BE0B0B /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = RxCocoa/Common/DelegateProxyType.swift; sourceTree = "<group>"; };
 		82F1475AA0F9C33F7EA4A1459305D2AB /* RxAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAlamofire.framework; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8343E1AD19FD95D15294480B64BFC57D /* CandleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartData.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartData.swift; sourceTree = "<group>"; };
+		839EEEAD6BEFED8227EBA587F33643D3 /* Pods-Bitcoin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bitcoin-frameworks.sh"; sourceTree = "<group>"; };
 		8578C69185E4288EA45B452CADECD767 /* Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.debug.xcconfig; sourceTree = "<group>"; };
 		877D5B1840F7B4A231D3F44B48D8E5C6 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		87DBC93DC3E8737297C29B2C4C99164F /* RxCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxCocoa-dummy.m"; sourceTree = "<group>"; };
@@ -984,15 +987,14 @@
 		9FAC5C11E4B6E93157A88D9C1BEB3ED8 /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
 		A0AFE5C9A1641F14DAE1DC8A0A5F89D0 /* AsyncLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncLock.swift; path = RxSwift/Concurrency/AsyncLock.swift; sourceTree = "<group>"; };
 		A0B1DAF6371B3158DA8FD69927ECF20A /* ScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartView.swift; path = Source/Charts/Charts/ScatterChartView.swift; sourceTree = "<group>"; };
+		A0BD5483100B40F70D94C0B3AC05F328 /* Pods-Bitcoin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin-Info.plist"; sourceTree = "<group>"; };
 		A1161CA675CFA156B49B43254A57B52B /* SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.debug.xcconfig; sourceTree = "<group>"; };
 		A12ACA1D0A3969FD5DBFAA98046374FE /* SkeletonFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonFlow.swift; path = Sources/SkeletonFlow.swift; sourceTree = "<group>"; };
 		A188CD8B0194EBD9DF905946133C0164 /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BubbleChartDataProvider.swift; sourceTree = "<group>"; };
 		A1A5A9D3BB958A3A3361C214C82133C9 /* UILabel+Multiline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Multiline.swift"; path = "Sources/Multilines/UILabel+Multiline.swift"; sourceTree = "<group>"; };
 		A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Charts.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F5D5E6C7DAFD9D4CECCA5DF09F702D /* Pods-Bitcoin-Blockchain-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin-Blockchain-acknowledgements.plist"; sourceTree = "<group>"; };
 		A213CB672A8BDF34C1E6B0A8CEEFDAE3 /* ConnectableObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectableObservableType.swift; path = RxSwift/ConnectableObservableType.swift; sourceTree = "<group>"; };
 		A21C93A781DD2BFED109A0ED9069D8C3 /* RadarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarHighlighter.swift; path = Source/Charts/Highlight/RadarHighlighter.swift; sourceTree = "<group>"; };
-		A25824C06111040CABAF77E5D21D37ED /* Pods-Bitcoin-Blockchain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bitcoin-Blockchain.modulemap"; sourceTree = "<group>"; };
 		A26537D1A3ED62CC3556D0727AD26B3E /* ControlEvent+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlEvent+Driver.swift"; sourceTree = "<group>"; };
 		A2C17B3C69C9F93BE2CA31E549B7D80C /* AxisRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisRendererBase.swift; path = Source/Charts/Renderers/AxisRendererBase.swift; sourceTree = "<group>"; };
 		A2F528841A930283B59E60CABD20FEEF /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
@@ -1009,7 +1011,6 @@
 		A862703984736A73A86125F25A126428 /* UIView+Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Frame.swift"; path = "Sources/Extensions/UIView+Frame.swift"; sourceTree = "<group>"; };
 		A8E874A01B4573986C224F76C0019FC1 /* RadarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartData.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartData.swift; sourceTree = "<group>"; };
 		AA134D4E33216DE512AA5871B3C990D1 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxSwift/Deprecated.swift; sourceTree = "<group>"; };
-		AABE153B7E377272C60B45FB206506BF /* Pods-Bitcoin-Blockchain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bitcoin-Blockchain-umbrella.h"; sourceTree = "<group>"; };
 		AAFBFD96B2A1D678025EB31F4FF8F1EE /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		AC3BF3B8CEDC5328F304634377B3F256 /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
 		AD1DBFA398C3CA153760B065F3BB55D4 /* LegendEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendEntry.swift; path = Source/Charts/Components/LegendEntry.swift; sourceTree = "<group>"; };
@@ -1056,7 +1057,6 @@
 		BE97C4CF5CB071086914A8C805088993 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		BEF72C6878778770AAF24FE9D843133F /* Int+Whitespaces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Whitespaces.swift"; path = "Sources/Extensions/Int+Whitespaces.swift"; sourceTree = "<group>"; };
 		BF80173B2D609EE246EFBF20E1F03099 /* ChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartViewBase.swift; path = Source/Charts/Charts/ChartViewBase.swift; sourceTree = "<group>"; };
-		BFED75618E8E57DEF86756AF361471AE /* Pods-Bitcoin-Blockchain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bitcoin-Blockchain-dummy.m"; sourceTree = "<group>"; };
 		C07884BB462B093AFEDBC8908F2B682E /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
 		C0955F0519BE45D322B6B4276AEA5549 /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
 		C0CEA7E212F3FB51C9A58A6310A31314 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = Source/Charts/Highlight/Range.swift; sourceTree = "<group>"; };
@@ -1071,6 +1071,7 @@
 		C645A2C1EB01C739C69AA3F3CD2D6631 /* URLSession+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+Rx.swift"; path = "RxCocoa/Foundation/URLSession+Rx.swift"; sourceTree = "<group>"; };
 		C68ECBDD36E0E2FB7395ABB1AB4F6BB0 /* RxTableViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourcePrefetchingProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
 		C7D0CEB78849B775A1EBE946999747ED /* RxTextStorageDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextStorageDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift; sourceTree = "<group>"; };
+		C8999B4896C010DC450F99FA54CEA00C /* Pods-Bitcoin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bitcoin-dummy.m"; sourceTree = "<group>"; };
 		C8D6A34039081849B898B0B1789F6626 /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
 		C8F75E76DDF63805DD0E6D6B170208EC /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = Sources/SkeletonView.swift; sourceTree = "<group>"; };
 		C9A2A7E77827A8BD3C71E0C4FCBC2F21 /* Concat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concat.swift; path = RxSwift/Observables/Concat.swift; sourceTree = "<group>"; };
@@ -1097,7 +1098,6 @@
 		D84FE72BB0E71895AD21D2D5E080D574 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
 		D89DCCF1AC90A34ACE175578C47A7685 /* RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.debug.xcconfig; sourceTree = "<group>"; };
 		D8A89BCBF6ACE86CBB4E8BEE2F230335 /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
-		D8D8557B6DFB8F2A1431CC80F79A9FB0 /* Pods-Bitcoin-Blockchain-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bitcoin-Blockchain-frameworks.sh"; sourceTree = "<group>"; };
 		D93972D06BD65C64487E243BD357A0AA /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		D96D8CF608CF1A8A1C936F30F73525C6 /* RxNavigationControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxNavigationControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		D97FA8E34EF805949A889E0C62ED0513 /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
@@ -1106,7 +1106,6 @@
 		DB64CEE17938C580F455A47133AE6CC3 /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionDisposable.swift; path = RxSwift/Disposables/SubscriptionDisposable.swift; sourceTree = "<group>"; };
 		DC08011BF5150B0F1110D70DDE5C57CF /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		DC62A3E54C46D1C11DE075F88DE4C687 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
-		DCC3115E008E1F291CAF8A4DF404ED1D /* Pods-Bitcoin-Blockchain-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bitcoin-Blockchain-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCF0A86B0BB177AE223F7FA57D6A07A9 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
 		DD1EEFA119161040F2EC5D1981CC2648 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
 		DD55BCBD07C66E25BC31141B99FBBD3E /* UITabBarController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Rx.swift"; path = "RxCocoa/iOS/UITabBarController+Rx.swift"; sourceTree = "<group>"; };
@@ -1117,10 +1116,12 @@
 		DFE9EDB5B246A4E3DEE1B50F37159D2F /* RxTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTarget.swift; path = RxCocoa/Common/RxTarget.swift; sourceTree = "<group>"; };
 		E05F21597902818788970BB9D051B51A /* BarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartRenderer.swift; path = Source/Charts/Renderers/BarChartRenderer.swift; sourceTree = "<group>"; };
 		E099B3CDB10E4A0467009C7CBD4EA53E /* AxisBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisBase.swift; path = Source/Charts/Components/AxisBase.swift; sourceTree = "<group>"; };
+		E0AB9AED11D6E4E5ACB3D54231A47D67 /* Pods-Bitcoin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bitcoin-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2A88665020F3AD27AA9898676427072 /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
 		E396344ACB280EED1C04D7D9137F1B32 /* SkeletonTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTableViewProtocols.swift; path = Sources/Collections/TableViews/SkeletonTableViewProtocols.swift; sourceTree = "<group>"; };
 		E5D4A9B057846E3538C18384523DDB38 /* GenericCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericCollectionView.swift; path = Sources/Collections/Generics/GenericCollectionView.swift; sourceTree = "<group>"; };
 		E5F3C2E73FCD5BE06A2D497BD64987AC /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		E78722DBDA3DF8D1DCFD9596D22AD3F6 /* Pods-Bitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin.release.xcconfig"; sourceTree = "<group>"; };
 		E7C13C4256056DDE38B33DDCBE089B75 /* PieChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartData.swift; path = Source/Charts/Data/Implementations/Standard/PieChartData.swift; sourceTree = "<group>"; };
 		E7E036652603C1CF6896ED536867A66C /* KeyPathBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPathBinder.swift; path = RxCocoa/Common/KeyPathBinder.swift; sourceTree = "<group>"; };
 		E889FD44A249C34C38B9EDDB3E83DD46 /* IAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAxisValueFormatter.swift; path = Source/Charts/Formatters/IAxisValueFormatter.swift; sourceTree = "<group>"; };
@@ -1181,7 +1182,6 @@
 		FD0E0FE60B10993EE27FB00511ACAA9A /* SkeletonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-umbrella.h"; sourceTree = "<group>"; };
 		FD246A6C6C5C6B4230034A22C48F52CF /* ChevronUpShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChevronUpShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ChevronUpShapeRenderer.swift; sourceTree = "<group>"; };
 		FE270A977A6D5A1166A7A3C8D64BE33D /* _RXObjCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXObjCRuntime.m; path = RxCocoa/Runtime/_RXObjCRuntime.m; sourceTree = "<group>"; };
-		FE38CAC37F8D5043745F606289416565 /* Pods-Bitcoin-Blockchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin-Blockchain.release.xcconfig"; sourceTree = "<group>"; };
 		FE70104E146F9DF0226EEBB6A21DB68E /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		FEC4C8044818AA726D16449773B40163 /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
 		FEF894CDC5BDB13387446278041D3C75 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -1206,6 +1206,14 @@
 			files = (
 				E8B43143E93F1A5F4F4B606B9767134B /* Foundation.framework in Frameworks */,
 				F105313AB1A53C7168273476626D6661 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D348A381362E9366F8F969B7AD1377B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E0B3E3B40991ED5C35893003AFFFCC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,14 +1249,6 @@
 			files = (
 				A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */,
 				F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C610D879B7ED2735D758CF7DF114DE4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10C1654377A3E06100623DAD948DB995 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1437,29 +1437,6 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
-		281700B5B5A8170036AC123A8945C154 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
-				4BC3C7CF05388D956969247A494959ED /* Pods_Bitcoin_Blockchain.framework */,
-				82F1475AA0F9C33F7EA4A1459305D2AB /* RxAlamofire.framework */,
-				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
-				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */,
-				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
-				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30F91D1508ABB8D38D5D75F600913EB0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B189B20E88E5533D73DB72088F536DD2 /* Pods-Bitcoin-Blockchain */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		31B192CDD79411FF791F5FE1F51DF5A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1631,6 +1608,29 @@
 				3981FA4DD7C829AD95DBE0E3B0A738A0 /* ZoomViewJob.swift */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		3B83A55A76C819A843E7868F5F6F7F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
+				7FBF68638E4AF04330A96481E683C0CB /* Pods_Bitcoin.framework */,
+				82F1475AA0F9C33F7EA4A1459305D2AB /* RxAlamofire.framework */,
+				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
+				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */,
+				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
+				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD107C860D19D7637E0D6314F00E584 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF489FF23B582FAA52BA2A0779EEAB6 /* Pods-Bitcoin */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		51725669DBE38F587EBFE3B7DD91E534 /* Pods */ = {
@@ -1933,31 +1933,14 @@
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
-		B189B20E88E5533D73DB72088F536DD2 /* Pods-Bitcoin-Blockchain */ = {
-			isa = PBXGroup;
-			children = (
-				A25824C06111040CABAF77E5D21D37ED /* Pods-Bitcoin-Blockchain.modulemap */,
-				DCC3115E008E1F291CAF8A4DF404ED1D /* Pods-Bitcoin-Blockchain-acknowledgements.markdown */,
-				A1F5D5E6C7DAFD9D4CECCA5DF09F702D /* Pods-Bitcoin-Blockchain-acknowledgements.plist */,
-				BFED75618E8E57DEF86756AF361471AE /* Pods-Bitcoin-Blockchain-dummy.m */,
-				D8D8557B6DFB8F2A1431CC80F79A9FB0 /* Pods-Bitcoin-Blockchain-frameworks.sh */,
-				5D83C0907F1CA480CC8C267F78101833 /* Pods-Bitcoin-Blockchain-Info.plist */,
-				AABE153B7E377272C60B45FB206506BF /* Pods-Bitcoin-Blockchain-umbrella.h */,
-				1103D9EF639062F2F24D190DCB3D7099 /* Pods-Bitcoin-Blockchain.debug.xcconfig */,
-				FE38CAC37F8D5043745F606289416565 /* Pods-Bitcoin-Blockchain.release.xcconfig */,
-			);
-			name = "Pods-Bitcoin-Blockchain";
-			path = "Target Support Files/Pods-Bitcoin-Blockchain";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				31B192CDD79411FF791F5FE1F51DF5A7 /* Frameworks */,
 				51725669DBE38F587EBFE3B7DD91E534 /* Pods */,
-				281700B5B5A8170036AC123A8945C154 /* Products */,
-				30F91D1508ABB8D38D5D75F600913EB0 /* Targets Support Files */,
+				3B83A55A76C819A843E7868F5F6F7F22 /* Products */,
+				4DD107C860D19D7637E0D6314F00E584 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1974,6 +1957,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Charts";
+			sourceTree = "<group>";
+		};
+		DBF489FF23B582FAA52BA2A0779EEAB6 /* Pods-Bitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D792201691084FF56331DE8DC3192 /* Pods-Bitcoin.modulemap */,
+				E0AB9AED11D6E4E5ACB3D54231A47D67 /* Pods-Bitcoin-acknowledgements.markdown */,
+				147A8E4CFCFB2CF457F1718A26C1D0F8 /* Pods-Bitcoin-acknowledgements.plist */,
+				C8999B4896C010DC450F99FA54CEA00C /* Pods-Bitcoin-dummy.m */,
+				839EEEAD6BEFED8227EBA587F33643D3 /* Pods-Bitcoin-frameworks.sh */,
+				A0BD5483100B40F70D94C0B3AC05F328 /* Pods-Bitcoin-Info.plist */,
+				75E22A6E1BB5B31031CEEF50896AE854 /* Pods-Bitcoin-umbrella.h */,
+				3EFED044E87A85C0B8EA4F163B9C065D /* Pods-Bitcoin.debug.xcconfig */,
+				E78722DBDA3DF8D1DCFD9596D22AD3F6 /* Pods-Bitcoin.release.xcconfig */,
+			);
+			name = "Pods-Bitcoin";
+			path = "Target Support Files/Pods-Bitcoin";
 			sourceTree = "<group>";
 		};
 		E9568022BF489897A3B022140D8A7423 /* Support Files */ = {
@@ -2051,6 +2051,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E2ED0B8BE47971C88111D92F0CE1ADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFC1AB5268AE5F0069D69971B95950 /* Pods-Bitcoin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49C2E9EC1AD5683F6B721191920A1BAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2080,14 +2088,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F3418383835F5795F21789582430D7 /* RxSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDE8471C7D79E19236BEFA634F804CC9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8536707DE5A04955B27787AE7B8527FC /* Pods-Bitcoin-Blockchain-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2141,6 +2141,31 @@
 			productReference = FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4F51B49F124223C5CB24CA57CAE76F57 /* Pods-Bitcoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B78B7A3B41290F45EA2F730E8257B0C /* Build configuration list for PBXNativeTarget "Pods-Bitcoin" */;
+			buildPhases = (
+				3E2ED0B8BE47971C88111D92F0CE1ADF /* Headers */,
+				AE36380B89C9601EB219A65A8D8BF1B2 /* Sources */,
+				4D348A381362E9366F8F969B7AD1377B /* Frameworks */,
+				9137865534CF333745C7CEDB00C3BC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA080BA5A39D9CB86FB2E9F182B5D23 /* PBXTargetDependency */,
+				FD6047372D8DA84DF66F33D4A0DC362A /* PBXTargetDependency */,
+				D579E8B6CFD7B6DF4BCA553637F00790 /* PBXTargetDependency */,
+				ECBBD062F6740664FEA27D4936D48976 /* PBXTargetDependency */,
+				50E9BAFE732736EA0C1C65265E95D90B /* PBXTargetDependency */,
+				BD0BE317D2512CCA1FC834D4C2E4B2E9 /* PBXTargetDependency */,
+				B80AAC02E1E111A9483F4BB1E04BDB9E /* PBXTargetDependency */,
+			);
+			name = "Pods-Bitcoin";
+			productName = "Pods-Bitcoin";
+			productReference = 7FBF68638E4AF04330A96481E683C0CB /* Pods_Bitcoin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5FA55E16DB9F2243CE5AFD6E4224C2C /* Build configuration list for PBXNativeTarget "RxCocoa" */;
@@ -2159,31 +2184,6 @@
 			name = RxCocoa;
 			productName = RxCocoa;
 			productReference = BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		865328D72E06E204B38D7FB6440A12F1 /* Pods-Bitcoin-Blockchain */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C044320806331F949DA3EFC05B5B4019 /* Build configuration list for PBXNativeTarget "Pods-Bitcoin-Blockchain" */;
-			buildPhases = (
-				EDE8471C7D79E19236BEFA634F804CC9 /* Headers */,
-				E7ABE2CE8DE7B51F09DB75B7FB55CEED /* Sources */,
-				C610D879B7ED2735D758CF7DF114DE4C /* Frameworks */,
-				A93ACBF4A85C48F4DE5E0F0437AC6FCD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58B60435AF2BA789FC3D3F1F073AE9CF /* PBXTargetDependency */,
-				E4ACE6D1EC73FA27A178055480CF76C5 /* PBXTargetDependency */,
-				BFBF13D858BD1C504B9A3D5230D453D9 /* PBXTargetDependency */,
-				1BDA6B2A908EBF652A9631BACDA164DA /* PBXTargetDependency */,
-				7FB8CDB9E5E1C74CB7380616B86FDDCB /* PBXTargetDependency */,
-				8D98CEE64398F094F1A958AD4B748FF1 /* PBXTargetDependency */,
-				63AFB59683B3EEADEA7CBC83E24B97C1 /* PBXTargetDependency */,
-			);
-			name = "Pods-Bitcoin-Blockchain";
-			productName = "Pods-Bitcoin-Blockchain";
-			productReference = 4BC3C7CF05388D956969247A494959ED /* Pods_Bitcoin_Blockchain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */ = {
@@ -2276,13 +2276,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 281700B5B5A8170036AC123A8945C154 /* Products */;
+			productRefGroup = 3B83A55A76C819A843E7868F5F6F7F22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */,
-				865328D72E06E204B38D7FB6440A12F1 /* Pods-Bitcoin-Blockchain */,
+				4F51B49F124223C5CB24CA57CAE76F57 /* Pods-Bitcoin */,
 				1A538A5499B1706F0983D6826042657B /* RxAlamofire */,
 				7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */,
 				4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */,
@@ -2300,14 +2300,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+		9137865534CF333745C7CEDB00C3BC88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A93ACBF4A85C48F4DE5E0F0437AC6FCD /* Resources */ = {
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2762,11 +2762,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7ABE2CE8DE7B51F09DB75B7FB55CEED /* Sources */ = {
+		AE36380B89C9601EB219A65A8D8BF1B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9495CD2D23630AEA7568AC1E624552F2 /* Pods-Bitcoin-Blockchain-dummy.m in Sources */,
+				5338DD5270309F01DD6CF9C8F44E4D0E /* Pods-Bitcoin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2907,17 +2907,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BDA6B2A908EBF652A9631BACDA164DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxCocoa;
-			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
-			targetProxy = 08BED52C47A6AEEFE1748B684AAE8A02 /* PBXContainerItemProxy */;
-		};
 		2D0B4036591387C395E646F18586B9D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = EF2FD7A8BFFD7B1EAE6A98C8451F20AC /* PBXContainerItemProxy */;
+		};
+		50E9BAFE732736EA0C1C65265E95D90B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxRelay;
+			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
+			targetProxy = 60A4A5481DEF20AEE25FAAA271B1322E /* PBXContainerItemProxy */;
 		};
 		573F8FF351F0F1AAB796DAE14F0B18F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2925,29 +2925,11 @@
 			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
 			targetProxy = 07E45B0AFEEED2846D13571956E582B3 /* PBXContainerItemProxy */;
 		};
-		58B60435AF2BA789FC3D3F1F073AE9CF /* PBXTargetDependency */ = {
+		5AA080BA5A39D9CB86FB2E9F182B5D23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 54A85B1FBECD86279C0A7E6F2B4A7F04 /* PBXContainerItemProxy */;
-		};
-		63AFB59683B3EEADEA7CBC83E24B97C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SkeletonView;
-			target = 8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */;
-			targetProxy = 8727070C785F333544C2E3BA60D79104 /* PBXContainerItemProxy */;
-		};
-		7FB8CDB9E5E1C74CB7380616B86FDDCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxRelay;
-			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
-			targetProxy = 557F3525F76F5C817842485B66905EBF /* PBXContainerItemProxy */;
-		};
-		8D98CEE64398F094F1A958AD4B748FF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxSwift;
-			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = 58573EF49D7FE1143565AE434E7C01DE /* PBXContainerItemProxy */;
+			targetProxy = 5864B8963877A399E98533E51044637F /* PBXContainerItemProxy */;
 		};
 		940FD46132DF4F39579B74E124168B36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2961,11 +2943,17 @@
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 04142E1DB41EC92EB296F3E757BCE4B7 /* PBXContainerItemProxy */;
 		};
-		BFBF13D858BD1C504B9A3D5230D453D9 /* PBXTargetDependency */ = {
+		B80AAC02E1E111A9483F4BB1E04BDB9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RxAlamofire;
-			target = 1A538A5499B1706F0983D6826042657B /* RxAlamofire */;
-			targetProxy = D8DD9BA5F851673B52C114FBC7E878A8 /* PBXContainerItemProxy */;
+			name = SkeletonView;
+			target = 8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */;
+			targetProxy = BA96CB3DC99FE7691DCF306E5E7EE2D7 /* PBXContainerItemProxy */;
+		};
+		BD0BE317D2512CCA1FC834D4C2E4B2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = AA3898FA1795A53B0BDFDF400C675B2C /* PBXContainerItemProxy */;
 		};
 		CCCA4B7752069A69459186957330D49D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2973,11 +2961,23 @@
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 3AA5F122E4B6C1CDC8306AE3F5C627D8 /* PBXContainerItemProxy */;
 		};
-		E4ACE6D1EC73FA27A178055480CF76C5 /* PBXTargetDependency */ = {
+		D579E8B6CFD7B6DF4BCA553637F00790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxAlamofire;
+			target = 1A538A5499B1706F0983D6826042657B /* RxAlamofire */;
+			targetProxy = 95391DCD1FE5239AF0B283C344224107 /* PBXContainerItemProxy */;
+		};
+		ECBBD062F6740664FEA27D4936D48976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxCocoa;
+			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
+			targetProxy = D23D6F2164DEBA6347B47CAEF42DB956 /* PBXContainerItemProxy */;
+		};
+		FD6047372D8DA84DF66F33D4A0DC362A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
 			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
-			targetProxy = C683F1AA569850BA6528BFA8A8BF00FB /* PBXContainerItemProxy */;
+			targetProxy = CAF2E92E7826BAD23754910C3130B28B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3048,6 +3048,44 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B3345D59E320FD135C69FDDF8EC1217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFED044E87A85C0B8EA4F163B9C065D /* Pods-Bitcoin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3234,6 +3272,45 @@
 			};
 			name = Release;
 		};
+		4EDB8A303FAD8DA14A9DAAC8B9D215D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78722DBDA3DF8D1DCFD9596D22AD3F6 /* Pods-Bitcoin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin/Pods-Bitcoin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3328,45 +3405,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		60A38AC51C30B01B9C90F7F26EF9CA8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE38CAC37F8D5043745F606289416565 /* Pods-Bitcoin-Blockchain.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		803BD9EFFB299825A7B41BC6082C3481 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3539,44 +3577,6 @@
 			};
 			name = Release;
 		};
-		C9193D745E60FC9FDFD35C545CA6FD4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1103D9EF639062F2F24D190DCB3D7099 /* Pods-Bitcoin-Blockchain.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin-Blockchain/Pods-Bitcoin-Blockchain.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DA2D34EC3DC045F72199CE2CD2975A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1161CA675CFA156B49B43254A57B52B /* SkeletonView.debug.xcconfig */;
@@ -3705,6 +3705,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2B78B7A3B41290F45EA2F730E8257B0C /* Build configuration list for PBXNativeTarget "Pods-Bitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3345D59E320FD135C69FDDF8EC1217 /* Debug */,
+				4EDB8A303FAD8DA14A9DAAC8B9D215D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3737,15 +3746,6 @@
 			buildConfigurations = (
 				18979CD75B5D6DDE2C7B652BECACBAFC /* Debug */,
 				42D67077D86F7C7F26B88AD7DA3F2448 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C044320806331F949DA3EFC05B5B4019 /* Build configuration list for PBXNativeTarget "Pods-Bitcoin-Blockchain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9193D745E60FC9FDFD35C545CA6FD4C /* Debug */,
-				60A38AC51C30B01B9C90F7F26EF9CA8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
