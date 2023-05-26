@@ -75,7 +75,7 @@ class HomeViewController: UIViewController {
     func prepareChart() {
         chartView.delegate = self
         
-        chartView.chartDescription?.enabled = false
+        chartView.chartDescription.enabled = false
         
         chartView.dragEnabled = true
         chartView.setScaleEnabled(true)
@@ -94,7 +94,7 @@ class HomeViewController: UIViewController {
         xAxis.drawGridLinesEnabled = false
         xAxis.centerAxisLabelsEnabled = true
         xAxis.granularity = 7
-        xAxis.valueFormatter = DateValueFormatter()
+        xAxis.valueFormatter = DateValueFormatter() as? AxisValueFormatter
         
         let leftAxis = chartView.leftAxis
         leftAxis.labelPosition = .outsideChart

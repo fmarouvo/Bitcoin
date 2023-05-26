@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8BD3125B253D2D8100670AC5"
-               BuildableName = "Bitcoin.app"
+               BuildableName = "Fausto Teste.app"
                BlueprintName = "Bitcoin"
                ReferencedContainer = "container:Bitcoin.xcodeproj">
             </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8BD3125B253D2D8100670AC5"
-            BuildableName = "Bitcoin.app"
+            BuildableName = "Fausto Teste.app"
             BlueprintName = "Bitcoin"
             ReferencedContainer = "container:Bitcoin.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8BD3125B253D2D8100670AC5"
-            BuildableName = "Bitcoin.app"
+            BuildableName = "Fausto Teste.app"
             BlueprintName = "Bitcoin"
             ReferencedContainer = "container:Bitcoin.xcodeproj">
          </BuildableReference>
