@@ -110,7 +110,7 @@ final class ApiClient {
                             observer(.success(value))
                         }
                     case .failure(let error):
-                        observer(.error(self.onError(error, response: response)))
+                        observer(.failure(self.onError(error, response: response)))
                     }
             }
             
@@ -135,10 +135,10 @@ final class ApiClient {
                             let result = try decoder.decode(T.self, from: value)
                             observer(.success(result))
                         } catch {
-                            observer(.error(self.onError(error, response: response)))
+                            observer(.failure(self.onError(error, response: response)))
                         }
                     case .failure(let error):
-                        observer(.error(self.onError(error, response: response)))
+                        observer(.failure(self.onError(error, response: response)))
                     }
             }
 

@@ -8,7 +8,7 @@
 import Foundation
 import Charts
 
-public class DateValueFormatter: NSObject, IAxisValueFormatter {
+public class DateValueFormatter: NSObject {
     private let dateFormatter = DateFormatter()
     
     override init() {
